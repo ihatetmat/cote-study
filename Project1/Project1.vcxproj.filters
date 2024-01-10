@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\그리디">
       <UniqueIdentifier>{5a87a7c2-d097-46f2-b14a-193eebd902bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\정수론">
+      <UniqueIdentifier>{17bacad2-b6cc-4d7a-a462-d1c7200c5a5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="problem1.cpp">
@@ -125,6 +128,18 @@
     </ClCompile>
     <ClCompile Include="problem33.cpp">
       <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="problem34.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="problem35.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="problem36.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="problem37.cpp">
+      <Filter>소스 파일\정수론</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
