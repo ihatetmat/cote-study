@@ -17,6 +17,7 @@ int main() {
 		A[i] = i;
 	}
 
+
 	for (int i = 2; i <= sqrt(N); i++) {
 		if (A[i] == 0) {
 			continue;
