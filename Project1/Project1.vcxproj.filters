@@ -156,5 +156,17 @@
     <ClCompile Include="problem42.cpp">
       <Filter>소스 파일\정수론</Filter>
     </ClCompile>
+    <ClCompile Include="problem43.cpp">
+      <Filter>소스 파일\정수론</Filter>
+    </ClCompile>
+    <ClCompile Include="problem44.cpp">
+      <Filter>소스 파일\정수론</Filter>
+    </ClCompile>
+    <ClCompile Include="problem45.cpp">
+      <Filter>소스 파일\정수론</Filter>
+    </ClCompile>
+    <ClCompile Include="problem46.cpp">
+      <Filter>소스 파일\정수론</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
