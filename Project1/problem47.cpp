@@ -1,26 +1,27 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <queue>
 
 using namespace std;
 
 static vector<vector<int>> A;
 static vector<int> answer;
-static vector<int> visited;
+static vector<bool> visited;
 
-void BFS(int node) {
+void BFS(int index) {
 	queue<int> myQueue;
-	myQueue.push(node);
-	visited[node]++;
+	myQueue.push(index);
+	visited[index] = true;
 
 	while (!myQueue.empty()) {
 		int n = myQueue.front();
 		myQueue.pop();
+
 		for (int i : A[n]) {
-			if (visited[i] == -1) {
-				visited[i] = visited[n] + 1;
+			if (visited[i] == false) {
+				answer[i]++;
 				myQueue.push(i);
+				visited[i] = true;
 			}
 		}
 	}
@@ -31,9 +32,10 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	long N, M, K, X;
-	cin >> N >> M >> K >> X;
+	long N, M;
+	cin >> N >> M;
 	A.resize(N + 1);
+	answer.resize(N + 1);
 
 	for (int i = 0; i < M; i++) {
 		int S, E;
@@ -42,25 +44,22 @@ int main() {
 	}
 
 	visited.resize(N + 1);
+
 	for (int i = 0; i <= N; i++) {
-		visited[i] = -1;
+		fill(visited.begin(), visited.end(), false);
+		BFS(i);
 	}
 
-	BFS(X);
-	
+	int maxVal = 0;
 	for (int i = 0; i <= N; i++) {
-		if (visited[i] == K) {
-			answer.push_back(i);
+		if (maxVal < answer[i]) {
+			maxVal = answer[i];
 		}
 	}
 
-	if (answer.empty()) {
-		cout << -1 << endl;
-	}
-	else {
-		sort(answer.begin(), answer.end());
-		for (int temp : answer) {
-			cout << temp << endl;
+	for (int i = 0; i <= N; i++) {
+		if (answer[i] == maxVal) {
+			cout << i << ' ';
 		}
 	}
 }

@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\정수론">
       <UniqueIdentifier>{17bacad2-b6cc-4d7a-a462-d1c7200c5a5b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\그래프">
+      <UniqueIdentifier>{a0297e8d-ed32-43bd-a040-a73b3d2fe4f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="problem1.cpp">
@@ -166,7 +169,16 @@
       <Filter>소스 파일\정수론</Filter>
     </ClCompile>
     <ClCompile Include="problem46.cpp">
-      <Filter>소스 파일\정수론</Filter>
+      <Filter>소스 파일\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="problem47.cpp">
+      <Filter>소스 파일\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="problem48.cpp">
+      <Filter>소스 파일\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="problem49.cpp">
+      <Filter>소스 파일\그래프</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
