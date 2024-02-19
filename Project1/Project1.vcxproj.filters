@@ -225,5 +225,11 @@
     <ClCompile Include="problem64.cpp">
       <Filter>소스 파일\그래프</Filter>
     </ClCompile>
+    <ClCompile Include="problem65.cpp">
+      <Filter>소스 파일\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="problem66.cpp">
+      <Filter>소스 파일\그래프</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

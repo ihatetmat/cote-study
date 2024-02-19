@@ -34,25 +34,40 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int N, M;
-	cin >> N >> M;
+	int N, sum = 0;
+	cin >> N;
 	priority_queue<Edge, vector<Edge>, greater<Edge>> pq;
-	parent.resize(N + 1);
 
-	for (int i = 1; i <= N; i++) {
-		parent[i] = i;
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			char tempc = cin.get();
+			if (tempc == '\n') {
+				tempc = cin.get();
+			}
+
+			int temp = 0;
+			if (tempc >= 'a' && tempc <= 'z') {
+				temp = tempc - 'a' + 1;
+			}
+			else if (tempc >= 'A' && tempc <= 'Z') {
+				temp = tempc - 'A' + 27;
+			}
+			sum += temp;
+			if (i != j && temp != 0) {
+				pq.push(Edge{ i, j, temp });
+			}
+		}
 	}
 
-	for (int i = 0; i < M; i++) {
-		int s, e, v;
-		cin >> s >> e >> v;
-		pq.push(Edge{ s, e, v });
+	parent.resize(N);
+	for (int i = 0; i < N; i++) {
+		parent[i] = i;
 	}
 
 	int useEdge = 0;
 	int result = 0;
 
-	while (useEdge < N - 1) {
+	while (!pq.empty()) {
 		Edge now = pq.top();
 		pq.pop();
 
@@ -62,6 +77,11 @@ int main() {
 			useEdge++;
 		}
 	}
-
-	cout << result;
+	
+	if (useEdge == N - 1) {
+		cout << sum - result << endl;
+	}
+	else {
+		cout << -1 << endl;
+	}
 }
