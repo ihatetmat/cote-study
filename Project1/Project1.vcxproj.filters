@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\정렬">
       <UniqueIdentifier>{dbba33af-9df8-489b-a307-6b9eb75d09c3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\탐색">
-      <UniqueIdentifier>{7d7941bb-c46e-4b2c-8a3f-327faba768ab}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\그리디">
       <UniqueIdentifier>{5a87a7c2-d097-46f2-b14a-193eebd902bf}</UniqueIdentifier>
     </Filter>
@@ -30,6 +27,12 @@
     </Filter>
     <Filter Include="소스 파일\그래프">
       <UniqueIdentifier>{a0297e8d-ed32-43bd-a040-a73b3d2fe4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐색">
+      <UniqueIdentifier>{7d7941bb-c46e-4b2c-8a3f-327faba768ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\트리">
+      <UniqueIdentifier>{9069cb23-c515-4824-ae4a-60524490c482}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -230,6 +233,18 @@
     </ClCompile>
     <ClCompile Include="problem66.cpp">
       <Filter>소스 파일\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="problem67.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="problem68.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="problem69.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="problem70.cpp">
+      <Filter>소스 파일\트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
