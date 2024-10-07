@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debu
 
 build cmake_object_order_depends_target_problem1: phony || .
 
-build CMakeFiles/problem1.dir/problem1.cpp.o: CXX_COMPILER__problem1_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem1.cpp || cmake_object_order_depends_target_problem1
-  DEP_FILE = CMakeFiles/problem1.dir/problem1.cpp.o.d
+build CMakeFiles/problem1.dir/pre/problem1.cpp.o: CXX_COMPILER__problem1_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem1.cpp || cmake_object_order_depends_target_problem1
+  DEP_FILE = CMakeFiles/problem1.dir/pre/problem1.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem1.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem1.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem1.dir/pre
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/problem1.dir/problem1.cpp.o: CXX_COMPILER__problem1_unscanned_D
 #############################################
 # Link the executable problem1
 
-build problem1: CXX_EXECUTABLE_LINKER__problem1_Debug CMakeFiles/problem1.dir/problem1.cpp.o
+build problem1: CXX_EXECUTABLE_LINKER__problem1_Debug CMakeFiles/problem1.dir/pre/problem1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem1.dir
   POST_BUILD = :
@@ -80,11 +80,11 @@ build problem1: CXX_EXECUTABLE_LINKER__problem1_Debug CMakeFiles/problem1.dir/pr
 
 build cmake_object_order_depends_target_problem2: phony || .
 
-build CMakeFiles/problem2.dir/problem2.cpp.o: CXX_COMPILER__problem2_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem2.cpp || cmake_object_order_depends_target_problem2
-  DEP_FILE = CMakeFiles/problem2.dir/problem2.cpp.o.d
+build CMakeFiles/problem2.dir/pre/problem2.cpp.o: CXX_COMPILER__problem2_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem2.cpp || cmake_object_order_depends_target_problem2
+  DEP_FILE = CMakeFiles/problem2.dir/pre/problem2.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem2.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem2.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem2.dir/pre
 
 
 # =============================================================================
@@ -94,7 +94,7 @@ build CMakeFiles/problem2.dir/problem2.cpp.o: CXX_COMPILER__problem2_unscanned_D
 #############################################
 # Link the executable problem2
 
-build problem2: CXX_EXECUTABLE_LINKER__problem2_Debug CMakeFiles/problem2.dir/problem2.cpp.o
+build problem2: CXX_EXECUTABLE_LINKER__problem2_Debug CMakeFiles/problem2.dir/pre/problem2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem2.dir
   POST_BUILD = :
@@ -111,11 +111,11 @@ build problem2: CXX_EXECUTABLE_LINKER__problem2_Debug CMakeFiles/problem2.dir/pr
 
 build cmake_object_order_depends_target_problem3: phony || .
 
-build CMakeFiles/problem3.dir/problem3.cpp.o: CXX_COMPILER__problem3_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem3.cpp || cmake_object_order_depends_target_problem3
-  DEP_FILE = CMakeFiles/problem3.dir/problem3.cpp.o.d
+build CMakeFiles/problem3.dir/pre/problem3.cpp.o: CXX_COMPILER__problem3_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem3.cpp || cmake_object_order_depends_target_problem3
+  DEP_FILE = CMakeFiles/problem3.dir/pre/problem3.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem3.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem3.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem3.dir/pre
 
 
 # =============================================================================
@@ -125,7 +125,7 @@ build CMakeFiles/problem3.dir/problem3.cpp.o: CXX_COMPILER__problem3_unscanned_D
 #############################################
 # Link the executable problem3
 
-build problem3: CXX_EXECUTABLE_LINKER__problem3_Debug CMakeFiles/problem3.dir/problem3.cpp.o
+build problem3: CXX_EXECUTABLE_LINKER__problem3_Debug CMakeFiles/problem3.dir/pre/problem3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem3.dir
   POST_BUILD = :
@@ -142,11 +142,11 @@ build problem3: CXX_EXECUTABLE_LINKER__problem3_Debug CMakeFiles/problem3.dir/pr
 
 build cmake_object_order_depends_target_problem4: phony || .
 
-build CMakeFiles/problem4.dir/problem4.cpp.o: CXX_COMPILER__problem4_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem4.cpp || cmake_object_order_depends_target_problem4
-  DEP_FILE = CMakeFiles/problem4.dir/problem4.cpp.o.d
+build CMakeFiles/problem4.dir/pre/problem4.cpp.o: CXX_COMPILER__problem4_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem4.cpp || cmake_object_order_depends_target_problem4
+  DEP_FILE = CMakeFiles/problem4.dir/pre/problem4.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem4.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem4.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem4.dir/pre
 
 
 # =============================================================================
@@ -156,7 +156,7 @@ build CMakeFiles/problem4.dir/problem4.cpp.o: CXX_COMPILER__problem4_unscanned_D
 #############################################
 # Link the executable problem4
 
-build problem4: CXX_EXECUTABLE_LINKER__problem4_Debug CMakeFiles/problem4.dir/problem4.cpp.o
+build problem4: CXX_EXECUTABLE_LINKER__problem4_Debug CMakeFiles/problem4.dir/pre/problem4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem4.dir
   POST_BUILD = :
@@ -173,11 +173,11 @@ build problem4: CXX_EXECUTABLE_LINKER__problem4_Debug CMakeFiles/problem4.dir/pr
 
 build cmake_object_order_depends_target_problem5: phony || .
 
-build CMakeFiles/problem5.dir/problem5.cpp.o: CXX_COMPILER__problem5_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem5.cpp || cmake_object_order_depends_target_problem5
-  DEP_FILE = CMakeFiles/problem5.dir/problem5.cpp.o.d
+build CMakeFiles/problem5.dir/pre/problem5.cpp.o: CXX_COMPILER__problem5_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem5.cpp || cmake_object_order_depends_target_problem5
+  DEP_FILE = CMakeFiles/problem5.dir/pre/problem5.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem5.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem5.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem5.dir/pre
 
 
 # =============================================================================
@@ -187,7 +187,7 @@ build CMakeFiles/problem5.dir/problem5.cpp.o: CXX_COMPILER__problem5_unscanned_D
 #############################################
 # Link the executable problem5
 
-build problem5: CXX_EXECUTABLE_LINKER__problem5_Debug CMakeFiles/problem5.dir/problem5.cpp.o
+build problem5: CXX_EXECUTABLE_LINKER__problem5_Debug CMakeFiles/problem5.dir/pre/problem5.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem5.dir
   POST_BUILD = :
@@ -204,11 +204,11 @@ build problem5: CXX_EXECUTABLE_LINKER__problem5_Debug CMakeFiles/problem5.dir/pr
 
 build cmake_object_order_depends_target_problem6: phony || .
 
-build CMakeFiles/problem6.dir/problem6.cpp.o: CXX_COMPILER__problem6_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem6.cpp || cmake_object_order_depends_target_problem6
-  DEP_FILE = CMakeFiles/problem6.dir/problem6.cpp.o.d
+build CMakeFiles/problem6.dir/pre/problem6.cpp.o: CXX_COMPILER__problem6_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem6.cpp || cmake_object_order_depends_target_problem6
+  DEP_FILE = CMakeFiles/problem6.dir/pre/problem6.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem6.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem6.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem6.dir/pre
 
 
 # =============================================================================
@@ -218,7 +218,7 @@ build CMakeFiles/problem6.dir/problem6.cpp.o: CXX_COMPILER__problem6_unscanned_D
 #############################################
 # Link the executable problem6
 
-build problem6: CXX_EXECUTABLE_LINKER__problem6_Debug CMakeFiles/problem6.dir/problem6.cpp.o
+build problem6: CXX_EXECUTABLE_LINKER__problem6_Debug CMakeFiles/problem6.dir/pre/problem6.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem6.dir
   POST_BUILD = :
@@ -235,11 +235,11 @@ build problem6: CXX_EXECUTABLE_LINKER__problem6_Debug CMakeFiles/problem6.dir/pr
 
 build cmake_object_order_depends_target_problem7: phony || .
 
-build CMakeFiles/problem7.dir/problem7.cpp.o: CXX_COMPILER__problem7_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem7.cpp || cmake_object_order_depends_target_problem7
-  DEP_FILE = CMakeFiles/problem7.dir/problem7.cpp.o.d
+build CMakeFiles/problem7.dir/pre/problem7.cpp.o: CXX_COMPILER__problem7_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem7.cpp || cmake_object_order_depends_target_problem7
+  DEP_FILE = CMakeFiles/problem7.dir/pre/problem7.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem7.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem7.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem7.dir/pre
 
 
 # =============================================================================
@@ -249,7 +249,7 @@ build CMakeFiles/problem7.dir/problem7.cpp.o: CXX_COMPILER__problem7_unscanned_D
 #############################################
 # Link the executable problem7
 
-build problem7: CXX_EXECUTABLE_LINKER__problem7_Debug CMakeFiles/problem7.dir/problem7.cpp.o
+build problem7: CXX_EXECUTABLE_LINKER__problem7_Debug CMakeFiles/problem7.dir/pre/problem7.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem7.dir
   POST_BUILD = :
@@ -266,11 +266,11 @@ build problem7: CXX_EXECUTABLE_LINKER__problem7_Debug CMakeFiles/problem7.dir/pr
 
 build cmake_object_order_depends_target_problem8: phony || .
 
-build CMakeFiles/problem8.dir/problem8.cpp.o: CXX_COMPILER__problem8_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem8.cpp || cmake_object_order_depends_target_problem8
-  DEP_FILE = CMakeFiles/problem8.dir/problem8.cpp.o.d
+build CMakeFiles/problem8.dir/pre/problem8.cpp.o: CXX_COMPILER__problem8_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem8.cpp || cmake_object_order_depends_target_problem8
+  DEP_FILE = CMakeFiles/problem8.dir/pre/problem8.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem8.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem8.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem8.dir/pre
 
 
 # =============================================================================
@@ -280,7 +280,7 @@ build CMakeFiles/problem8.dir/problem8.cpp.o: CXX_COMPILER__problem8_unscanned_D
 #############################################
 # Link the executable problem8
 
-build problem8: CXX_EXECUTABLE_LINKER__problem8_Debug CMakeFiles/problem8.dir/problem8.cpp.o
+build problem8: CXX_EXECUTABLE_LINKER__problem8_Debug CMakeFiles/problem8.dir/pre/problem8.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem8.dir
   POST_BUILD = :
@@ -297,11 +297,11 @@ build problem8: CXX_EXECUTABLE_LINKER__problem8_Debug CMakeFiles/problem8.dir/pr
 
 build cmake_object_order_depends_target_problem9: phony || .
 
-build CMakeFiles/problem9.dir/problem9.cpp.o: CXX_COMPILER__problem9_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem9.cpp || cmake_object_order_depends_target_problem9
-  DEP_FILE = CMakeFiles/problem9.dir/problem9.cpp.o.d
+build CMakeFiles/problem9.dir/pre/problem9.cpp.o: CXX_COMPILER__problem9_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem9.cpp || cmake_object_order_depends_target_problem9
+  DEP_FILE = CMakeFiles/problem9.dir/pre/problem9.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem9.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem9.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem9.dir/pre
 
 
 # =============================================================================
@@ -311,7 +311,7 @@ build CMakeFiles/problem9.dir/problem9.cpp.o: CXX_COMPILER__problem9_unscanned_D
 #############################################
 # Link the executable problem9
 
-build problem9: CXX_EXECUTABLE_LINKER__problem9_Debug CMakeFiles/problem9.dir/problem9.cpp.o
+build problem9: CXX_EXECUTABLE_LINKER__problem9_Debug CMakeFiles/problem9.dir/pre/problem9.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem9.dir
   POST_BUILD = :
@@ -328,11 +328,11 @@ build problem9: CXX_EXECUTABLE_LINKER__problem9_Debug CMakeFiles/problem9.dir/pr
 
 build cmake_object_order_depends_target_problem10: phony || .
 
-build CMakeFiles/problem10.dir/problem10.cpp.o: CXX_COMPILER__problem10_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem10.cpp || cmake_object_order_depends_target_problem10
-  DEP_FILE = CMakeFiles/problem10.dir/problem10.cpp.o.d
+build CMakeFiles/problem10.dir/pre/problem10.cpp.o: CXX_COMPILER__problem10_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem10.cpp || cmake_object_order_depends_target_problem10
+  DEP_FILE = CMakeFiles/problem10.dir/pre/problem10.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem10.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem10.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem10.dir/pre
 
 
 # =============================================================================
@@ -342,7 +342,7 @@ build CMakeFiles/problem10.dir/problem10.cpp.o: CXX_COMPILER__problem10_unscanne
 #############################################
 # Link the executable problem10
 
-build problem10: CXX_EXECUTABLE_LINKER__problem10_Debug CMakeFiles/problem10.dir/problem10.cpp.o
+build problem10: CXX_EXECUTABLE_LINKER__problem10_Debug CMakeFiles/problem10.dir/pre/problem10.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem10.dir
   POST_BUILD = :
@@ -359,11 +359,11 @@ build problem10: CXX_EXECUTABLE_LINKER__problem10_Debug CMakeFiles/problem10.dir
 
 build cmake_object_order_depends_target_problem11: phony || .
 
-build CMakeFiles/problem11.dir/problem11.cpp.o: CXX_COMPILER__problem11_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem11.cpp || cmake_object_order_depends_target_problem11
-  DEP_FILE = CMakeFiles/problem11.dir/problem11.cpp.o.d
+build CMakeFiles/problem11.dir/pre/problem11.cpp.o: CXX_COMPILER__problem11_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem11.cpp || cmake_object_order_depends_target_problem11
+  DEP_FILE = CMakeFiles/problem11.dir/pre/problem11.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem11.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem11.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem11.dir/pre
 
 
 # =============================================================================
@@ -373,7 +373,7 @@ build CMakeFiles/problem11.dir/problem11.cpp.o: CXX_COMPILER__problem11_unscanne
 #############################################
 # Link the executable problem11
 
-build problem11: CXX_EXECUTABLE_LINKER__problem11_Debug CMakeFiles/problem11.dir/problem11.cpp.o
+build problem11: CXX_EXECUTABLE_LINKER__problem11_Debug CMakeFiles/problem11.dir/pre/problem11.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem11.dir
   POST_BUILD = :
@@ -390,11 +390,11 @@ build problem11: CXX_EXECUTABLE_LINKER__problem11_Debug CMakeFiles/problem11.dir
 
 build cmake_object_order_depends_target_problem12: phony || .
 
-build CMakeFiles/problem12.dir/problem12.cpp.o: CXX_COMPILER__problem12_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem12.cpp || cmake_object_order_depends_target_problem12
-  DEP_FILE = CMakeFiles/problem12.dir/problem12.cpp.o.d
+build CMakeFiles/problem12.dir/pre/problem12.cpp.o: CXX_COMPILER__problem12_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem12.cpp || cmake_object_order_depends_target_problem12
+  DEP_FILE = CMakeFiles/problem12.dir/pre/problem12.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem12.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem12.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem12.dir/pre
 
 
 # =============================================================================
@@ -404,7 +404,7 @@ build CMakeFiles/problem12.dir/problem12.cpp.o: CXX_COMPILER__problem12_unscanne
 #############################################
 # Link the executable problem12
 
-build problem12: CXX_EXECUTABLE_LINKER__problem12_Debug CMakeFiles/problem12.dir/problem12.cpp.o
+build problem12: CXX_EXECUTABLE_LINKER__problem12_Debug CMakeFiles/problem12.dir/pre/problem12.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem12.dir
   POST_BUILD = :
@@ -421,11 +421,11 @@ build problem12: CXX_EXECUTABLE_LINKER__problem12_Debug CMakeFiles/problem12.dir
 
 build cmake_object_order_depends_target_problem13: phony || .
 
-build CMakeFiles/problem13.dir/problem13.cpp.o: CXX_COMPILER__problem13_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem13.cpp || cmake_object_order_depends_target_problem13
-  DEP_FILE = CMakeFiles/problem13.dir/problem13.cpp.o.d
+build CMakeFiles/problem13.dir/pre/problem13.cpp.o: CXX_COMPILER__problem13_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem13.cpp || cmake_object_order_depends_target_problem13
+  DEP_FILE = CMakeFiles/problem13.dir/pre/problem13.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem13.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem13.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem13.dir/pre
 
 
 # =============================================================================
@@ -435,7 +435,7 @@ build CMakeFiles/problem13.dir/problem13.cpp.o: CXX_COMPILER__problem13_unscanne
 #############################################
 # Link the executable problem13
 
-build problem13: CXX_EXECUTABLE_LINKER__problem13_Debug CMakeFiles/problem13.dir/problem13.cpp.o
+build problem13: CXX_EXECUTABLE_LINKER__problem13_Debug CMakeFiles/problem13.dir/pre/problem13.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem13.dir
   POST_BUILD = :
@@ -452,11 +452,11 @@ build problem13: CXX_EXECUTABLE_LINKER__problem13_Debug CMakeFiles/problem13.dir
 
 build cmake_object_order_depends_target_problem14: phony || .
 
-build CMakeFiles/problem14.dir/problem14.cpp.o: CXX_COMPILER__problem14_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem14.cpp || cmake_object_order_depends_target_problem14
-  DEP_FILE = CMakeFiles/problem14.dir/problem14.cpp.o.d
+build CMakeFiles/problem14.dir/pre/problem14.cpp.o: CXX_COMPILER__problem14_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem14.cpp || cmake_object_order_depends_target_problem14
+  DEP_FILE = CMakeFiles/problem14.dir/pre/problem14.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem14.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem14.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem14.dir/pre
 
 
 # =============================================================================
@@ -466,7 +466,7 @@ build CMakeFiles/problem14.dir/problem14.cpp.o: CXX_COMPILER__problem14_unscanne
 #############################################
 # Link the executable problem14
 
-build problem14: CXX_EXECUTABLE_LINKER__problem14_Debug CMakeFiles/problem14.dir/problem14.cpp.o
+build problem14: CXX_EXECUTABLE_LINKER__problem14_Debug CMakeFiles/problem14.dir/pre/problem14.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem14.dir
   POST_BUILD = :
@@ -483,11 +483,11 @@ build problem14: CXX_EXECUTABLE_LINKER__problem14_Debug CMakeFiles/problem14.dir
 
 build cmake_object_order_depends_target_problem15: phony || .
 
-build CMakeFiles/problem15.dir/problem15.cpp.o: CXX_COMPILER__problem15_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem15.cpp || cmake_object_order_depends_target_problem15
-  DEP_FILE = CMakeFiles/problem15.dir/problem15.cpp.o.d
+build CMakeFiles/problem15.dir/pre/problem15.cpp.o: CXX_COMPILER__problem15_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem15.cpp || cmake_object_order_depends_target_problem15
+  DEP_FILE = CMakeFiles/problem15.dir/pre/problem15.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem15.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem15.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem15.dir/pre
 
 
 # =============================================================================
@@ -497,7 +497,7 @@ build CMakeFiles/problem15.dir/problem15.cpp.o: CXX_COMPILER__problem15_unscanne
 #############################################
 # Link the executable problem15
 
-build problem15: CXX_EXECUTABLE_LINKER__problem15_Debug CMakeFiles/problem15.dir/problem15.cpp.o
+build problem15: CXX_EXECUTABLE_LINKER__problem15_Debug CMakeFiles/problem15.dir/pre/problem15.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem15.dir
   POST_BUILD = :
@@ -514,11 +514,11 @@ build problem15: CXX_EXECUTABLE_LINKER__problem15_Debug CMakeFiles/problem15.dir
 
 build cmake_object_order_depends_target_problem16: phony || .
 
-build CMakeFiles/problem16.dir/problem16.cpp.o: CXX_COMPILER__problem16_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem16.cpp || cmake_object_order_depends_target_problem16
-  DEP_FILE = CMakeFiles/problem16.dir/problem16.cpp.o.d
+build CMakeFiles/problem16.dir/pre/problem16.cpp.o: CXX_COMPILER__problem16_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem16.cpp || cmake_object_order_depends_target_problem16
+  DEP_FILE = CMakeFiles/problem16.dir/pre/problem16.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem16.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem16.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem16.dir/pre
 
 
 # =============================================================================
@@ -528,7 +528,7 @@ build CMakeFiles/problem16.dir/problem16.cpp.o: CXX_COMPILER__problem16_unscanne
 #############################################
 # Link the executable problem16
 
-build problem16: CXX_EXECUTABLE_LINKER__problem16_Debug CMakeFiles/problem16.dir/problem16.cpp.o
+build problem16: CXX_EXECUTABLE_LINKER__problem16_Debug CMakeFiles/problem16.dir/pre/problem16.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem16.dir
   POST_BUILD = :
@@ -545,11 +545,11 @@ build problem16: CXX_EXECUTABLE_LINKER__problem16_Debug CMakeFiles/problem16.dir
 
 build cmake_object_order_depends_target_problem17: phony || .
 
-build CMakeFiles/problem17.dir/problem17.cpp.o: CXX_COMPILER__problem17_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem17.cpp || cmake_object_order_depends_target_problem17
-  DEP_FILE = CMakeFiles/problem17.dir/problem17.cpp.o.d
+build CMakeFiles/problem17.dir/pre/problem17.cpp.o: CXX_COMPILER__problem17_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem17.cpp || cmake_object_order_depends_target_problem17
+  DEP_FILE = CMakeFiles/problem17.dir/pre/problem17.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem17.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem17.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem17.dir/pre
 
 
 # =============================================================================
@@ -559,7 +559,7 @@ build CMakeFiles/problem17.dir/problem17.cpp.o: CXX_COMPILER__problem17_unscanne
 #############################################
 # Link the executable problem17
 
-build problem17: CXX_EXECUTABLE_LINKER__problem17_Debug CMakeFiles/problem17.dir/problem17.cpp.o
+build problem17: CXX_EXECUTABLE_LINKER__problem17_Debug CMakeFiles/problem17.dir/pre/problem17.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem17.dir
   POST_BUILD = :
@@ -576,11 +576,11 @@ build problem17: CXX_EXECUTABLE_LINKER__problem17_Debug CMakeFiles/problem17.dir
 
 build cmake_object_order_depends_target_problem18: phony || .
 
-build CMakeFiles/problem18.dir/problem18.cpp.o: CXX_COMPILER__problem18_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem18.cpp || cmake_object_order_depends_target_problem18
-  DEP_FILE = CMakeFiles/problem18.dir/problem18.cpp.o.d
+build CMakeFiles/problem18.dir/pre/problem18.cpp.o: CXX_COMPILER__problem18_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem18.cpp || cmake_object_order_depends_target_problem18
+  DEP_FILE = CMakeFiles/problem18.dir/pre/problem18.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem18.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem18.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem18.dir/pre
 
 
 # =============================================================================
@@ -590,7 +590,7 @@ build CMakeFiles/problem18.dir/problem18.cpp.o: CXX_COMPILER__problem18_unscanne
 #############################################
 # Link the executable problem18
 
-build problem18: CXX_EXECUTABLE_LINKER__problem18_Debug CMakeFiles/problem18.dir/problem18.cpp.o
+build problem18: CXX_EXECUTABLE_LINKER__problem18_Debug CMakeFiles/problem18.dir/pre/problem18.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem18.dir
   POST_BUILD = :
@@ -607,11 +607,11 @@ build problem18: CXX_EXECUTABLE_LINKER__problem18_Debug CMakeFiles/problem18.dir
 
 build cmake_object_order_depends_target_problem19: phony || .
 
-build CMakeFiles/problem19.dir/problem19.cpp.o: CXX_COMPILER__problem19_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem19.cpp || cmake_object_order_depends_target_problem19
-  DEP_FILE = CMakeFiles/problem19.dir/problem19.cpp.o.d
+build CMakeFiles/problem19.dir/pre/problem19.cpp.o: CXX_COMPILER__problem19_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem19.cpp || cmake_object_order_depends_target_problem19
+  DEP_FILE = CMakeFiles/problem19.dir/pre/problem19.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem19.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem19.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem19.dir/pre
 
 
 # =============================================================================
@@ -621,7 +621,7 @@ build CMakeFiles/problem19.dir/problem19.cpp.o: CXX_COMPILER__problem19_unscanne
 #############################################
 # Link the executable problem19
 
-build problem19: CXX_EXECUTABLE_LINKER__problem19_Debug CMakeFiles/problem19.dir/problem19.cpp.o
+build problem19: CXX_EXECUTABLE_LINKER__problem19_Debug CMakeFiles/problem19.dir/pre/problem19.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem19.dir
   POST_BUILD = :
@@ -638,11 +638,11 @@ build problem19: CXX_EXECUTABLE_LINKER__problem19_Debug CMakeFiles/problem19.dir
 
 build cmake_object_order_depends_target_problem20: phony || .
 
-build CMakeFiles/problem20.dir/problem20.cpp.o: CXX_COMPILER__problem20_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem20.cpp || cmake_object_order_depends_target_problem20
-  DEP_FILE = CMakeFiles/problem20.dir/problem20.cpp.o.d
+build CMakeFiles/problem20.dir/pre/problem20.cpp.o: CXX_COMPILER__problem20_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem20.cpp || cmake_object_order_depends_target_problem20
+  DEP_FILE = CMakeFiles/problem20.dir/pre/problem20.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem20.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem20.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem20.dir/pre
 
 
 # =============================================================================
@@ -652,7 +652,7 @@ build CMakeFiles/problem20.dir/problem20.cpp.o: CXX_COMPILER__problem20_unscanne
 #############################################
 # Link the executable problem20
 
-build problem20: CXX_EXECUTABLE_LINKER__problem20_Debug CMakeFiles/problem20.dir/problem20.cpp.o
+build problem20: CXX_EXECUTABLE_LINKER__problem20_Debug CMakeFiles/problem20.dir/pre/problem20.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem20.dir
   POST_BUILD = :
@@ -669,11 +669,11 @@ build problem20: CXX_EXECUTABLE_LINKER__problem20_Debug CMakeFiles/problem20.dir
 
 build cmake_object_order_depends_target_problem21: phony || .
 
-build CMakeFiles/problem21.dir/problem21.cpp.o: CXX_COMPILER__problem21_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem21.cpp || cmake_object_order_depends_target_problem21
-  DEP_FILE = CMakeFiles/problem21.dir/problem21.cpp.o.d
+build CMakeFiles/problem21.dir/pre/problem21.cpp.o: CXX_COMPILER__problem21_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem21.cpp || cmake_object_order_depends_target_problem21
+  DEP_FILE = CMakeFiles/problem21.dir/pre/problem21.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem21.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem21.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem21.dir/pre
 
 
 # =============================================================================
@@ -683,7 +683,7 @@ build CMakeFiles/problem21.dir/problem21.cpp.o: CXX_COMPILER__problem21_unscanne
 #############################################
 # Link the executable problem21
 
-build problem21: CXX_EXECUTABLE_LINKER__problem21_Debug CMakeFiles/problem21.dir/problem21.cpp.o
+build problem21: CXX_EXECUTABLE_LINKER__problem21_Debug CMakeFiles/problem21.dir/pre/problem21.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem21.dir
   POST_BUILD = :
@@ -700,11 +700,11 @@ build problem21: CXX_EXECUTABLE_LINKER__problem21_Debug CMakeFiles/problem21.dir
 
 build cmake_object_order_depends_target_problem22: phony || .
 
-build CMakeFiles/problem22.dir/problem22.cpp.o: CXX_COMPILER__problem22_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem22.cpp || cmake_object_order_depends_target_problem22
-  DEP_FILE = CMakeFiles/problem22.dir/problem22.cpp.o.d
+build CMakeFiles/problem22.dir/pre/problem22.cpp.o: CXX_COMPILER__problem22_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem22.cpp || cmake_object_order_depends_target_problem22
+  DEP_FILE = CMakeFiles/problem22.dir/pre/problem22.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem22.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem22.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem22.dir/pre
 
 
 # =============================================================================
@@ -714,7 +714,7 @@ build CMakeFiles/problem22.dir/problem22.cpp.o: CXX_COMPILER__problem22_unscanne
 #############################################
 # Link the executable problem22
 
-build problem22: CXX_EXECUTABLE_LINKER__problem22_Debug CMakeFiles/problem22.dir/problem22.cpp.o
+build problem22: CXX_EXECUTABLE_LINKER__problem22_Debug CMakeFiles/problem22.dir/pre/problem22.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem22.dir
   POST_BUILD = :
@@ -731,11 +731,11 @@ build problem22: CXX_EXECUTABLE_LINKER__problem22_Debug CMakeFiles/problem22.dir
 
 build cmake_object_order_depends_target_problem23: phony || .
 
-build CMakeFiles/problem23.dir/problem23.cpp.o: CXX_COMPILER__problem23_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem23.cpp || cmake_object_order_depends_target_problem23
-  DEP_FILE = CMakeFiles/problem23.dir/problem23.cpp.o.d
+build CMakeFiles/problem23.dir/pre/problem23.cpp.o: CXX_COMPILER__problem23_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem23.cpp || cmake_object_order_depends_target_problem23
+  DEP_FILE = CMakeFiles/problem23.dir/pre/problem23.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem23.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem23.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem23.dir/pre
 
 
 # =============================================================================
@@ -745,7 +745,7 @@ build CMakeFiles/problem23.dir/problem23.cpp.o: CXX_COMPILER__problem23_unscanne
 #############################################
 # Link the executable problem23
 
-build problem23: CXX_EXECUTABLE_LINKER__problem23_Debug CMakeFiles/problem23.dir/problem23.cpp.o
+build problem23: CXX_EXECUTABLE_LINKER__problem23_Debug CMakeFiles/problem23.dir/pre/problem23.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem23.dir
   POST_BUILD = :
@@ -762,11 +762,11 @@ build problem23: CXX_EXECUTABLE_LINKER__problem23_Debug CMakeFiles/problem23.dir
 
 build cmake_object_order_depends_target_problem24: phony || .
 
-build CMakeFiles/problem24.dir/problem24.cpp.o: CXX_COMPILER__problem24_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem24.cpp || cmake_object_order_depends_target_problem24
-  DEP_FILE = CMakeFiles/problem24.dir/problem24.cpp.o.d
+build CMakeFiles/problem24.dir/pre/problem24.cpp.o: CXX_COMPILER__problem24_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem24.cpp || cmake_object_order_depends_target_problem24
+  DEP_FILE = CMakeFiles/problem24.dir/pre/problem24.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem24.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem24.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem24.dir/pre
 
 
 # =============================================================================
@@ -776,7 +776,7 @@ build CMakeFiles/problem24.dir/problem24.cpp.o: CXX_COMPILER__problem24_unscanne
 #############################################
 # Link the executable problem24
 
-build problem24: CXX_EXECUTABLE_LINKER__problem24_Debug CMakeFiles/problem24.dir/problem24.cpp.o
+build problem24: CXX_EXECUTABLE_LINKER__problem24_Debug CMakeFiles/problem24.dir/pre/problem24.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem24.dir
   POST_BUILD = :
@@ -793,11 +793,11 @@ build problem24: CXX_EXECUTABLE_LINKER__problem24_Debug CMakeFiles/problem24.dir
 
 build cmake_object_order_depends_target_problem25: phony || .
 
-build CMakeFiles/problem25.dir/problem25.cpp.o: CXX_COMPILER__problem25_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem25.cpp || cmake_object_order_depends_target_problem25
-  DEP_FILE = CMakeFiles/problem25.dir/problem25.cpp.o.d
+build CMakeFiles/problem25.dir/pre/problem25.cpp.o: CXX_COMPILER__problem25_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem25.cpp || cmake_object_order_depends_target_problem25
+  DEP_FILE = CMakeFiles/problem25.dir/pre/problem25.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem25.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem25.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem25.dir/pre
 
 
 # =============================================================================
@@ -807,7 +807,7 @@ build CMakeFiles/problem25.dir/problem25.cpp.o: CXX_COMPILER__problem25_unscanne
 #############################################
 # Link the executable problem25
 
-build problem25: CXX_EXECUTABLE_LINKER__problem25_Debug CMakeFiles/problem25.dir/problem25.cpp.o
+build problem25: CXX_EXECUTABLE_LINKER__problem25_Debug CMakeFiles/problem25.dir/pre/problem25.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem25.dir
   POST_BUILD = :
@@ -824,11 +824,11 @@ build problem25: CXX_EXECUTABLE_LINKER__problem25_Debug CMakeFiles/problem25.dir
 
 build cmake_object_order_depends_target_problem26: phony || .
 
-build CMakeFiles/problem26.dir/problem26.cpp.o: CXX_COMPILER__problem26_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem26.cpp || cmake_object_order_depends_target_problem26
-  DEP_FILE = CMakeFiles/problem26.dir/problem26.cpp.o.d
+build CMakeFiles/problem26.dir/pre/problem26.cpp.o: CXX_COMPILER__problem26_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem26.cpp || cmake_object_order_depends_target_problem26
+  DEP_FILE = CMakeFiles/problem26.dir/pre/problem26.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem26.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem26.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem26.dir/pre
 
 
 # =============================================================================
@@ -838,7 +838,7 @@ build CMakeFiles/problem26.dir/problem26.cpp.o: CXX_COMPILER__problem26_unscanne
 #############################################
 # Link the executable problem26
 
-build problem26: CXX_EXECUTABLE_LINKER__problem26_Debug CMakeFiles/problem26.dir/problem26.cpp.o
+build problem26: CXX_EXECUTABLE_LINKER__problem26_Debug CMakeFiles/problem26.dir/pre/problem26.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem26.dir
   POST_BUILD = :
@@ -855,11 +855,11 @@ build problem26: CXX_EXECUTABLE_LINKER__problem26_Debug CMakeFiles/problem26.dir
 
 build cmake_object_order_depends_target_problem27: phony || .
 
-build CMakeFiles/problem27.dir/problem27.cpp.o: CXX_COMPILER__problem27_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem27.cpp || cmake_object_order_depends_target_problem27
-  DEP_FILE = CMakeFiles/problem27.dir/problem27.cpp.o.d
+build CMakeFiles/problem27.dir/pre/problem27.cpp.o: CXX_COMPILER__problem27_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem27.cpp || cmake_object_order_depends_target_problem27
+  DEP_FILE = CMakeFiles/problem27.dir/pre/problem27.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem27.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem27.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem27.dir/pre
 
 
 # =============================================================================
@@ -869,7 +869,7 @@ build CMakeFiles/problem27.dir/problem27.cpp.o: CXX_COMPILER__problem27_unscanne
 #############################################
 # Link the executable problem27
 
-build problem27: CXX_EXECUTABLE_LINKER__problem27_Debug CMakeFiles/problem27.dir/problem27.cpp.o
+build problem27: CXX_EXECUTABLE_LINKER__problem27_Debug CMakeFiles/problem27.dir/pre/problem27.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem27.dir
   POST_BUILD = :
@@ -886,11 +886,11 @@ build problem27: CXX_EXECUTABLE_LINKER__problem27_Debug CMakeFiles/problem27.dir
 
 build cmake_object_order_depends_target_problem28: phony || .
 
-build CMakeFiles/problem28.dir/problem28.cpp.o: CXX_COMPILER__problem28_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem28.cpp || cmake_object_order_depends_target_problem28
-  DEP_FILE = CMakeFiles/problem28.dir/problem28.cpp.o.d
+build CMakeFiles/problem28.dir/pre/problem28.cpp.o: CXX_COMPILER__problem28_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem28.cpp || cmake_object_order_depends_target_problem28
+  DEP_FILE = CMakeFiles/problem28.dir/pre/problem28.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem28.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem28.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem28.dir/pre
 
 
 # =============================================================================
@@ -900,7 +900,7 @@ build CMakeFiles/problem28.dir/problem28.cpp.o: CXX_COMPILER__problem28_unscanne
 #############################################
 # Link the executable problem28
 
-build problem28: CXX_EXECUTABLE_LINKER__problem28_Debug CMakeFiles/problem28.dir/problem28.cpp.o
+build problem28: CXX_EXECUTABLE_LINKER__problem28_Debug CMakeFiles/problem28.dir/pre/problem28.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem28.dir
   POST_BUILD = :
@@ -917,11 +917,11 @@ build problem28: CXX_EXECUTABLE_LINKER__problem28_Debug CMakeFiles/problem28.dir
 
 build cmake_object_order_depends_target_problem29: phony || .
 
-build CMakeFiles/problem29.dir/problem29.cpp.o: CXX_COMPILER__problem29_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem29.cpp || cmake_object_order_depends_target_problem29
-  DEP_FILE = CMakeFiles/problem29.dir/problem29.cpp.o.d
+build CMakeFiles/problem29.dir/pre/problem29.cpp.o: CXX_COMPILER__problem29_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem29.cpp || cmake_object_order_depends_target_problem29
+  DEP_FILE = CMakeFiles/problem29.dir/pre/problem29.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem29.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem29.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem29.dir/pre
 
 
 # =============================================================================
@@ -931,7 +931,7 @@ build CMakeFiles/problem29.dir/problem29.cpp.o: CXX_COMPILER__problem29_unscanne
 #############################################
 # Link the executable problem29
 
-build problem29: CXX_EXECUTABLE_LINKER__problem29_Debug CMakeFiles/problem29.dir/problem29.cpp.o
+build problem29: CXX_EXECUTABLE_LINKER__problem29_Debug CMakeFiles/problem29.dir/pre/problem29.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem29.dir
   POST_BUILD = :
@@ -948,11 +948,11 @@ build problem29: CXX_EXECUTABLE_LINKER__problem29_Debug CMakeFiles/problem29.dir
 
 build cmake_object_order_depends_target_problem30: phony || .
 
-build CMakeFiles/problem30.dir/problem30.cpp.o: CXX_COMPILER__problem30_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem30.cpp || cmake_object_order_depends_target_problem30
-  DEP_FILE = CMakeFiles/problem30.dir/problem30.cpp.o.d
+build CMakeFiles/problem30.dir/pre/problem30.cpp.o: CXX_COMPILER__problem30_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem30.cpp || cmake_object_order_depends_target_problem30
+  DEP_FILE = CMakeFiles/problem30.dir/pre/problem30.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem30.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem30.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem30.dir/pre
 
 
 # =============================================================================
@@ -962,7 +962,7 @@ build CMakeFiles/problem30.dir/problem30.cpp.o: CXX_COMPILER__problem30_unscanne
 #############################################
 # Link the executable problem30
 
-build problem30: CXX_EXECUTABLE_LINKER__problem30_Debug CMakeFiles/problem30.dir/problem30.cpp.o
+build problem30: CXX_EXECUTABLE_LINKER__problem30_Debug CMakeFiles/problem30.dir/pre/problem30.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem30.dir
   POST_BUILD = :
@@ -979,11 +979,11 @@ build problem30: CXX_EXECUTABLE_LINKER__problem30_Debug CMakeFiles/problem30.dir
 
 build cmake_object_order_depends_target_problem31: phony || .
 
-build CMakeFiles/problem31.dir/problem31.cpp.o: CXX_COMPILER__problem31_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem31.cpp || cmake_object_order_depends_target_problem31
-  DEP_FILE = CMakeFiles/problem31.dir/problem31.cpp.o.d
+build CMakeFiles/problem31.dir/pre/problem31.cpp.o: CXX_COMPILER__problem31_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem31.cpp || cmake_object_order_depends_target_problem31
+  DEP_FILE = CMakeFiles/problem31.dir/pre/problem31.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem31.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem31.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem31.dir/pre
 
 
 # =============================================================================
@@ -993,7 +993,7 @@ build CMakeFiles/problem31.dir/problem31.cpp.o: CXX_COMPILER__problem31_unscanne
 #############################################
 # Link the executable problem31
 
-build problem31: CXX_EXECUTABLE_LINKER__problem31_Debug CMakeFiles/problem31.dir/problem31.cpp.o
+build problem31: CXX_EXECUTABLE_LINKER__problem31_Debug CMakeFiles/problem31.dir/pre/problem31.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem31.dir
   POST_BUILD = :
@@ -1010,11 +1010,11 @@ build problem31: CXX_EXECUTABLE_LINKER__problem31_Debug CMakeFiles/problem31.dir
 
 build cmake_object_order_depends_target_problem32: phony || .
 
-build CMakeFiles/problem32.dir/problem32.cpp.o: CXX_COMPILER__problem32_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem32.cpp || cmake_object_order_depends_target_problem32
-  DEP_FILE = CMakeFiles/problem32.dir/problem32.cpp.o.d
+build CMakeFiles/problem32.dir/pre/problem32.cpp.o: CXX_COMPILER__problem32_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem32.cpp || cmake_object_order_depends_target_problem32
+  DEP_FILE = CMakeFiles/problem32.dir/pre/problem32.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem32.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem32.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem32.dir/pre
 
 
 # =============================================================================
@@ -1024,7 +1024,7 @@ build CMakeFiles/problem32.dir/problem32.cpp.o: CXX_COMPILER__problem32_unscanne
 #############################################
 # Link the executable problem32
 
-build problem32: CXX_EXECUTABLE_LINKER__problem32_Debug CMakeFiles/problem32.dir/problem32.cpp.o
+build problem32: CXX_EXECUTABLE_LINKER__problem32_Debug CMakeFiles/problem32.dir/pre/problem32.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem32.dir
   POST_BUILD = :
@@ -1041,11 +1041,11 @@ build problem32: CXX_EXECUTABLE_LINKER__problem32_Debug CMakeFiles/problem32.dir
 
 build cmake_object_order_depends_target_problem33: phony || .
 
-build CMakeFiles/problem33.dir/problem33.cpp.o: CXX_COMPILER__problem33_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem33.cpp || cmake_object_order_depends_target_problem33
-  DEP_FILE = CMakeFiles/problem33.dir/problem33.cpp.o.d
+build CMakeFiles/problem33.dir/pre/problem33.cpp.o: CXX_COMPILER__problem33_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem33.cpp || cmake_object_order_depends_target_problem33
+  DEP_FILE = CMakeFiles/problem33.dir/pre/problem33.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem33.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem33.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem33.dir/pre
 
 
 # =============================================================================
@@ -1055,7 +1055,7 @@ build CMakeFiles/problem33.dir/problem33.cpp.o: CXX_COMPILER__problem33_unscanne
 #############################################
 # Link the executable problem33
 
-build problem33: CXX_EXECUTABLE_LINKER__problem33_Debug CMakeFiles/problem33.dir/problem33.cpp.o
+build problem33: CXX_EXECUTABLE_LINKER__problem33_Debug CMakeFiles/problem33.dir/pre/problem33.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem33.dir
   POST_BUILD = :
@@ -1072,11 +1072,11 @@ build problem33: CXX_EXECUTABLE_LINKER__problem33_Debug CMakeFiles/problem33.dir
 
 build cmake_object_order_depends_target_problem34: phony || .
 
-build CMakeFiles/problem34.dir/problem34.cpp.o: CXX_COMPILER__problem34_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem34.cpp || cmake_object_order_depends_target_problem34
-  DEP_FILE = CMakeFiles/problem34.dir/problem34.cpp.o.d
+build CMakeFiles/problem34.dir/pre/problem34.cpp.o: CXX_COMPILER__problem34_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem34.cpp || cmake_object_order_depends_target_problem34
+  DEP_FILE = CMakeFiles/problem34.dir/pre/problem34.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem34.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem34.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem34.dir/pre
 
 
 # =============================================================================
@@ -1086,7 +1086,7 @@ build CMakeFiles/problem34.dir/problem34.cpp.o: CXX_COMPILER__problem34_unscanne
 #############################################
 # Link the executable problem34
 
-build problem34: CXX_EXECUTABLE_LINKER__problem34_Debug CMakeFiles/problem34.dir/problem34.cpp.o
+build problem34: CXX_EXECUTABLE_LINKER__problem34_Debug CMakeFiles/problem34.dir/pre/problem34.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem34.dir
   POST_BUILD = :
@@ -1103,11 +1103,11 @@ build problem34: CXX_EXECUTABLE_LINKER__problem34_Debug CMakeFiles/problem34.dir
 
 build cmake_object_order_depends_target_problem35: phony || .
 
-build CMakeFiles/problem35.dir/problem35.cpp.o: CXX_COMPILER__problem35_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem35.cpp || cmake_object_order_depends_target_problem35
-  DEP_FILE = CMakeFiles/problem35.dir/problem35.cpp.o.d
+build CMakeFiles/problem35.dir/pre/problem35.cpp.o: CXX_COMPILER__problem35_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem35.cpp || cmake_object_order_depends_target_problem35
+  DEP_FILE = CMakeFiles/problem35.dir/pre/problem35.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem35.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem35.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem35.dir/pre
 
 
 # =============================================================================
@@ -1117,7 +1117,7 @@ build CMakeFiles/problem35.dir/problem35.cpp.o: CXX_COMPILER__problem35_unscanne
 #############################################
 # Link the executable problem35
 
-build problem35: CXX_EXECUTABLE_LINKER__problem35_Debug CMakeFiles/problem35.dir/problem35.cpp.o
+build problem35: CXX_EXECUTABLE_LINKER__problem35_Debug CMakeFiles/problem35.dir/pre/problem35.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem35.dir
   POST_BUILD = :
@@ -1134,11 +1134,11 @@ build problem35: CXX_EXECUTABLE_LINKER__problem35_Debug CMakeFiles/problem35.dir
 
 build cmake_object_order_depends_target_problem36: phony || .
 
-build CMakeFiles/problem36.dir/problem36.cpp.o: CXX_COMPILER__problem36_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem36.cpp || cmake_object_order_depends_target_problem36
-  DEP_FILE = CMakeFiles/problem36.dir/problem36.cpp.o.d
+build CMakeFiles/problem36.dir/pre/problem36.cpp.o: CXX_COMPILER__problem36_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem36.cpp || cmake_object_order_depends_target_problem36
+  DEP_FILE = CMakeFiles/problem36.dir/pre/problem36.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem36.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem36.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem36.dir/pre
 
 
 # =============================================================================
@@ -1148,7 +1148,7 @@ build CMakeFiles/problem36.dir/problem36.cpp.o: CXX_COMPILER__problem36_unscanne
 #############################################
 # Link the executable problem36
 
-build problem36: CXX_EXECUTABLE_LINKER__problem36_Debug CMakeFiles/problem36.dir/problem36.cpp.o
+build problem36: CXX_EXECUTABLE_LINKER__problem36_Debug CMakeFiles/problem36.dir/pre/problem36.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem36.dir
   POST_BUILD = :
@@ -1165,11 +1165,11 @@ build problem36: CXX_EXECUTABLE_LINKER__problem36_Debug CMakeFiles/problem36.dir
 
 build cmake_object_order_depends_target_problem37: phony || .
 
-build CMakeFiles/problem37.dir/problem37.cpp.o: CXX_COMPILER__problem37_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem37.cpp || cmake_object_order_depends_target_problem37
-  DEP_FILE = CMakeFiles/problem37.dir/problem37.cpp.o.d
+build CMakeFiles/problem37.dir/pre/problem37.cpp.o: CXX_COMPILER__problem37_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem37.cpp || cmake_object_order_depends_target_problem37
+  DEP_FILE = CMakeFiles/problem37.dir/pre/problem37.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem37.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem37.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem37.dir/pre
 
 
 # =============================================================================
@@ -1179,7 +1179,7 @@ build CMakeFiles/problem37.dir/problem37.cpp.o: CXX_COMPILER__problem37_unscanne
 #############################################
 # Link the executable problem37
 
-build problem37: CXX_EXECUTABLE_LINKER__problem37_Debug CMakeFiles/problem37.dir/problem37.cpp.o
+build problem37: CXX_EXECUTABLE_LINKER__problem37_Debug CMakeFiles/problem37.dir/pre/problem37.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem37.dir
   POST_BUILD = :
@@ -1196,11 +1196,11 @@ build problem37: CXX_EXECUTABLE_LINKER__problem37_Debug CMakeFiles/problem37.dir
 
 build cmake_object_order_depends_target_problem38: phony || .
 
-build CMakeFiles/problem38.dir/problem38.cpp.o: CXX_COMPILER__problem38_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem38.cpp || cmake_object_order_depends_target_problem38
-  DEP_FILE = CMakeFiles/problem38.dir/problem38.cpp.o.d
+build CMakeFiles/problem38.dir/pre/problem38.cpp.o: CXX_COMPILER__problem38_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem38.cpp || cmake_object_order_depends_target_problem38
+  DEP_FILE = CMakeFiles/problem38.dir/pre/problem38.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem38.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem38.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem38.dir/pre
 
 
 # =============================================================================
@@ -1210,7 +1210,7 @@ build CMakeFiles/problem38.dir/problem38.cpp.o: CXX_COMPILER__problem38_unscanne
 #############################################
 # Link the executable problem38
 
-build problem38: CXX_EXECUTABLE_LINKER__problem38_Debug CMakeFiles/problem38.dir/problem38.cpp.o
+build problem38: CXX_EXECUTABLE_LINKER__problem38_Debug CMakeFiles/problem38.dir/pre/problem38.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem38.dir
   POST_BUILD = :
@@ -1227,11 +1227,11 @@ build problem38: CXX_EXECUTABLE_LINKER__problem38_Debug CMakeFiles/problem38.dir
 
 build cmake_object_order_depends_target_problem39: phony || .
 
-build CMakeFiles/problem39.dir/problem39.cpp.o: CXX_COMPILER__problem39_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem39.cpp || cmake_object_order_depends_target_problem39
-  DEP_FILE = CMakeFiles/problem39.dir/problem39.cpp.o.d
+build CMakeFiles/problem39.dir/pre/problem39.cpp.o: CXX_COMPILER__problem39_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem39.cpp || cmake_object_order_depends_target_problem39
+  DEP_FILE = CMakeFiles/problem39.dir/pre/problem39.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem39.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem39.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem39.dir/pre
 
 
 # =============================================================================
@@ -1241,7 +1241,7 @@ build CMakeFiles/problem39.dir/problem39.cpp.o: CXX_COMPILER__problem39_unscanne
 #############################################
 # Link the executable problem39
 
-build problem39: CXX_EXECUTABLE_LINKER__problem39_Debug CMakeFiles/problem39.dir/problem39.cpp.o
+build problem39: CXX_EXECUTABLE_LINKER__problem39_Debug CMakeFiles/problem39.dir/pre/problem39.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem39.dir
   POST_BUILD = :
@@ -1258,11 +1258,11 @@ build problem39: CXX_EXECUTABLE_LINKER__problem39_Debug CMakeFiles/problem39.dir
 
 build cmake_object_order_depends_target_problem40: phony || .
 
-build CMakeFiles/problem40.dir/problem40.cpp.o: CXX_COMPILER__problem40_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem40.cpp || cmake_object_order_depends_target_problem40
-  DEP_FILE = CMakeFiles/problem40.dir/problem40.cpp.o.d
+build CMakeFiles/problem40.dir/pre/problem40.cpp.o: CXX_COMPILER__problem40_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem40.cpp || cmake_object_order_depends_target_problem40
+  DEP_FILE = CMakeFiles/problem40.dir/pre/problem40.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem40.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem40.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem40.dir/pre
 
 
 # =============================================================================
@@ -1272,7 +1272,7 @@ build CMakeFiles/problem40.dir/problem40.cpp.o: CXX_COMPILER__problem40_unscanne
 #############################################
 # Link the executable problem40
 
-build problem40: CXX_EXECUTABLE_LINKER__problem40_Debug CMakeFiles/problem40.dir/problem40.cpp.o
+build problem40: CXX_EXECUTABLE_LINKER__problem40_Debug CMakeFiles/problem40.dir/pre/problem40.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem40.dir
   POST_BUILD = :
@@ -1289,11 +1289,11 @@ build problem40: CXX_EXECUTABLE_LINKER__problem40_Debug CMakeFiles/problem40.dir
 
 build cmake_object_order_depends_target_problem41: phony || .
 
-build CMakeFiles/problem41.dir/problem41.cpp.o: CXX_COMPILER__problem41_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem41.cpp || cmake_object_order_depends_target_problem41
-  DEP_FILE = CMakeFiles/problem41.dir/problem41.cpp.o.d
+build CMakeFiles/problem41.dir/pre/problem41.cpp.o: CXX_COMPILER__problem41_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem41.cpp || cmake_object_order_depends_target_problem41
+  DEP_FILE = CMakeFiles/problem41.dir/pre/problem41.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem41.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem41.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem41.dir/pre
 
 
 # =============================================================================
@@ -1303,7 +1303,7 @@ build CMakeFiles/problem41.dir/problem41.cpp.o: CXX_COMPILER__problem41_unscanne
 #############################################
 # Link the executable problem41
 
-build problem41: CXX_EXECUTABLE_LINKER__problem41_Debug CMakeFiles/problem41.dir/problem41.cpp.o
+build problem41: CXX_EXECUTABLE_LINKER__problem41_Debug CMakeFiles/problem41.dir/pre/problem41.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem41.dir
   POST_BUILD = :
@@ -1320,11 +1320,11 @@ build problem41: CXX_EXECUTABLE_LINKER__problem41_Debug CMakeFiles/problem41.dir
 
 build cmake_object_order_depends_target_problem42: phony || .
 
-build CMakeFiles/problem42.dir/problem42.cpp.o: CXX_COMPILER__problem42_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem42.cpp || cmake_object_order_depends_target_problem42
-  DEP_FILE = CMakeFiles/problem42.dir/problem42.cpp.o.d
+build CMakeFiles/problem42.dir/pre/problem42.cpp.o: CXX_COMPILER__problem42_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem42.cpp || cmake_object_order_depends_target_problem42
+  DEP_FILE = CMakeFiles/problem42.dir/pre/problem42.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem42.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem42.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem42.dir/pre
 
 
 # =============================================================================
@@ -1334,7 +1334,7 @@ build CMakeFiles/problem42.dir/problem42.cpp.o: CXX_COMPILER__problem42_unscanne
 #############################################
 # Link the executable problem42
 
-build problem42: CXX_EXECUTABLE_LINKER__problem42_Debug CMakeFiles/problem42.dir/problem42.cpp.o
+build problem42: CXX_EXECUTABLE_LINKER__problem42_Debug CMakeFiles/problem42.dir/pre/problem42.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem42.dir
   POST_BUILD = :
@@ -1351,11 +1351,11 @@ build problem42: CXX_EXECUTABLE_LINKER__problem42_Debug CMakeFiles/problem42.dir
 
 build cmake_object_order_depends_target_problem43: phony || .
 
-build CMakeFiles/problem43.dir/problem43.cpp.o: CXX_COMPILER__problem43_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem43.cpp || cmake_object_order_depends_target_problem43
-  DEP_FILE = CMakeFiles/problem43.dir/problem43.cpp.o.d
+build CMakeFiles/problem43.dir/pre/problem43.cpp.o: CXX_COMPILER__problem43_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem43.cpp || cmake_object_order_depends_target_problem43
+  DEP_FILE = CMakeFiles/problem43.dir/pre/problem43.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem43.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem43.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem43.dir/pre
 
 
 # =============================================================================
@@ -1365,7 +1365,7 @@ build CMakeFiles/problem43.dir/problem43.cpp.o: CXX_COMPILER__problem43_unscanne
 #############################################
 # Link the executable problem43
 
-build problem43: CXX_EXECUTABLE_LINKER__problem43_Debug CMakeFiles/problem43.dir/problem43.cpp.o
+build problem43: CXX_EXECUTABLE_LINKER__problem43_Debug CMakeFiles/problem43.dir/pre/problem43.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem43.dir
   POST_BUILD = :
@@ -1382,11 +1382,11 @@ build problem43: CXX_EXECUTABLE_LINKER__problem43_Debug CMakeFiles/problem43.dir
 
 build cmake_object_order_depends_target_problem44: phony || .
 
-build CMakeFiles/problem44.dir/problem44.cpp.o: CXX_COMPILER__problem44_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem44.cpp || cmake_object_order_depends_target_problem44
-  DEP_FILE = CMakeFiles/problem44.dir/problem44.cpp.o.d
+build CMakeFiles/problem44.dir/pre/problem44.cpp.o: CXX_COMPILER__problem44_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem44.cpp || cmake_object_order_depends_target_problem44
+  DEP_FILE = CMakeFiles/problem44.dir/pre/problem44.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem44.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem44.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem44.dir/pre
 
 
 # =============================================================================
@@ -1396,7 +1396,7 @@ build CMakeFiles/problem44.dir/problem44.cpp.o: CXX_COMPILER__problem44_unscanne
 #############################################
 # Link the executable problem44
 
-build problem44: CXX_EXECUTABLE_LINKER__problem44_Debug CMakeFiles/problem44.dir/problem44.cpp.o
+build problem44: CXX_EXECUTABLE_LINKER__problem44_Debug CMakeFiles/problem44.dir/pre/problem44.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem44.dir
   POST_BUILD = :
@@ -1413,11 +1413,11 @@ build problem44: CXX_EXECUTABLE_LINKER__problem44_Debug CMakeFiles/problem44.dir
 
 build cmake_object_order_depends_target_problem45: phony || .
 
-build CMakeFiles/problem45.dir/problem45.cpp.o: CXX_COMPILER__problem45_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem45.cpp || cmake_object_order_depends_target_problem45
-  DEP_FILE = CMakeFiles/problem45.dir/problem45.cpp.o.d
+build CMakeFiles/problem45.dir/pre/problem45.cpp.o: CXX_COMPILER__problem45_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem45.cpp || cmake_object_order_depends_target_problem45
+  DEP_FILE = CMakeFiles/problem45.dir/pre/problem45.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem45.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem45.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem45.dir/pre
 
 
 # =============================================================================
@@ -1427,7 +1427,7 @@ build CMakeFiles/problem45.dir/problem45.cpp.o: CXX_COMPILER__problem45_unscanne
 #############################################
 # Link the executable problem45
 
-build problem45: CXX_EXECUTABLE_LINKER__problem45_Debug CMakeFiles/problem45.dir/problem45.cpp.o
+build problem45: CXX_EXECUTABLE_LINKER__problem45_Debug CMakeFiles/problem45.dir/pre/problem45.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem45.dir
   POST_BUILD = :
@@ -1444,11 +1444,11 @@ build problem45: CXX_EXECUTABLE_LINKER__problem45_Debug CMakeFiles/problem45.dir
 
 build cmake_object_order_depends_target_problem46: phony || .
 
-build CMakeFiles/problem46.dir/problem46.cpp.o: CXX_COMPILER__problem46_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem46.cpp || cmake_object_order_depends_target_problem46
-  DEP_FILE = CMakeFiles/problem46.dir/problem46.cpp.o.d
+build CMakeFiles/problem46.dir/pre/problem46.cpp.o: CXX_COMPILER__problem46_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem46.cpp || cmake_object_order_depends_target_problem46
+  DEP_FILE = CMakeFiles/problem46.dir/pre/problem46.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem46.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem46.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem46.dir/pre
 
 
 # =============================================================================
@@ -1458,7 +1458,7 @@ build CMakeFiles/problem46.dir/problem46.cpp.o: CXX_COMPILER__problem46_unscanne
 #############################################
 # Link the executable problem46
 
-build problem46: CXX_EXECUTABLE_LINKER__problem46_Debug CMakeFiles/problem46.dir/problem46.cpp.o
+build problem46: CXX_EXECUTABLE_LINKER__problem46_Debug CMakeFiles/problem46.dir/pre/problem46.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem46.dir
   POST_BUILD = :
@@ -1475,11 +1475,11 @@ build problem46: CXX_EXECUTABLE_LINKER__problem46_Debug CMakeFiles/problem46.dir
 
 build cmake_object_order_depends_target_problem47: phony || .
 
-build CMakeFiles/problem47.dir/problem47.cpp.o: CXX_COMPILER__problem47_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem47.cpp || cmake_object_order_depends_target_problem47
-  DEP_FILE = CMakeFiles/problem47.dir/problem47.cpp.o.d
+build CMakeFiles/problem47.dir/pre/problem47.cpp.o: CXX_COMPILER__problem47_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem47.cpp || cmake_object_order_depends_target_problem47
+  DEP_FILE = CMakeFiles/problem47.dir/pre/problem47.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem47.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem47.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem47.dir/pre
 
 
 # =============================================================================
@@ -1489,7 +1489,7 @@ build CMakeFiles/problem47.dir/problem47.cpp.o: CXX_COMPILER__problem47_unscanne
 #############################################
 # Link the executable problem47
 
-build problem47: CXX_EXECUTABLE_LINKER__problem47_Debug CMakeFiles/problem47.dir/problem47.cpp.o
+build problem47: CXX_EXECUTABLE_LINKER__problem47_Debug CMakeFiles/problem47.dir/pre/problem47.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem47.dir
   POST_BUILD = :
@@ -1506,11 +1506,11 @@ build problem47: CXX_EXECUTABLE_LINKER__problem47_Debug CMakeFiles/problem47.dir
 
 build cmake_object_order_depends_target_problem48: phony || .
 
-build CMakeFiles/problem48.dir/problem48.cpp.o: CXX_COMPILER__problem48_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem48.cpp || cmake_object_order_depends_target_problem48
-  DEP_FILE = CMakeFiles/problem48.dir/problem48.cpp.o.d
+build CMakeFiles/problem48.dir/pre/problem48.cpp.o: CXX_COMPILER__problem48_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem48.cpp || cmake_object_order_depends_target_problem48
+  DEP_FILE = CMakeFiles/problem48.dir/pre/problem48.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem48.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem48.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem48.dir/pre
 
 
 # =============================================================================
@@ -1520,7 +1520,7 @@ build CMakeFiles/problem48.dir/problem48.cpp.o: CXX_COMPILER__problem48_unscanne
 #############################################
 # Link the executable problem48
 
-build problem48: CXX_EXECUTABLE_LINKER__problem48_Debug CMakeFiles/problem48.dir/problem48.cpp.o
+build problem48: CXX_EXECUTABLE_LINKER__problem48_Debug CMakeFiles/problem48.dir/pre/problem48.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem48.dir
   POST_BUILD = :
@@ -1537,11 +1537,11 @@ build problem48: CXX_EXECUTABLE_LINKER__problem48_Debug CMakeFiles/problem48.dir
 
 build cmake_object_order_depends_target_problem49: phony || .
 
-build CMakeFiles/problem49.dir/problem49.cpp.o: CXX_COMPILER__problem49_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem49.cpp || cmake_object_order_depends_target_problem49
-  DEP_FILE = CMakeFiles/problem49.dir/problem49.cpp.o.d
+build CMakeFiles/problem49.dir/pre/problem49.cpp.o: CXX_COMPILER__problem49_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem49.cpp || cmake_object_order_depends_target_problem49
+  DEP_FILE = CMakeFiles/problem49.dir/pre/problem49.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem49.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem49.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem49.dir/pre
 
 
 # =============================================================================
@@ -1551,7 +1551,7 @@ build CMakeFiles/problem49.dir/problem49.cpp.o: CXX_COMPILER__problem49_unscanne
 #############################################
 # Link the executable problem49
 
-build problem49: CXX_EXECUTABLE_LINKER__problem49_Debug CMakeFiles/problem49.dir/problem49.cpp.o
+build problem49: CXX_EXECUTABLE_LINKER__problem49_Debug CMakeFiles/problem49.dir/pre/problem49.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem49.dir
   POST_BUILD = :
@@ -1568,11 +1568,11 @@ build problem49: CXX_EXECUTABLE_LINKER__problem49_Debug CMakeFiles/problem49.dir
 
 build cmake_object_order_depends_target_problem50: phony || .
 
-build CMakeFiles/problem50.dir/problem50.cpp.o: CXX_COMPILER__problem50_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem50.cpp || cmake_object_order_depends_target_problem50
-  DEP_FILE = CMakeFiles/problem50.dir/problem50.cpp.o.d
+build CMakeFiles/problem50.dir/pre/problem50.cpp.o: CXX_COMPILER__problem50_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem50.cpp || cmake_object_order_depends_target_problem50
+  DEP_FILE = CMakeFiles/problem50.dir/pre/problem50.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem50.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem50.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem50.dir/pre
 
 
 # =============================================================================
@@ -1582,7 +1582,7 @@ build CMakeFiles/problem50.dir/problem50.cpp.o: CXX_COMPILER__problem50_unscanne
 #############################################
 # Link the executable problem50
 
-build problem50: CXX_EXECUTABLE_LINKER__problem50_Debug CMakeFiles/problem50.dir/problem50.cpp.o
+build problem50: CXX_EXECUTABLE_LINKER__problem50_Debug CMakeFiles/problem50.dir/pre/problem50.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem50.dir
   POST_BUILD = :
@@ -1599,11 +1599,11 @@ build problem50: CXX_EXECUTABLE_LINKER__problem50_Debug CMakeFiles/problem50.dir
 
 build cmake_object_order_depends_target_problem51: phony || .
 
-build CMakeFiles/problem51.dir/problem51.cpp.o: CXX_COMPILER__problem51_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem51.cpp || cmake_object_order_depends_target_problem51
-  DEP_FILE = CMakeFiles/problem51.dir/problem51.cpp.o.d
+build CMakeFiles/problem51.dir/pre/problem51.cpp.o: CXX_COMPILER__problem51_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem51.cpp || cmake_object_order_depends_target_problem51
+  DEP_FILE = CMakeFiles/problem51.dir/pre/problem51.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem51.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem51.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem51.dir/pre
 
 
 # =============================================================================
@@ -1613,7 +1613,7 @@ build CMakeFiles/problem51.dir/problem51.cpp.o: CXX_COMPILER__problem51_unscanne
 #############################################
 # Link the executable problem51
 
-build problem51: CXX_EXECUTABLE_LINKER__problem51_Debug CMakeFiles/problem51.dir/problem51.cpp.o
+build problem51: CXX_EXECUTABLE_LINKER__problem51_Debug CMakeFiles/problem51.dir/pre/problem51.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem51.dir
   POST_BUILD = :
@@ -1630,11 +1630,11 @@ build problem51: CXX_EXECUTABLE_LINKER__problem51_Debug CMakeFiles/problem51.dir
 
 build cmake_object_order_depends_target_problem52: phony || .
 
-build CMakeFiles/problem52.dir/problem52.cpp.o: CXX_COMPILER__problem52_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem52.cpp || cmake_object_order_depends_target_problem52
-  DEP_FILE = CMakeFiles/problem52.dir/problem52.cpp.o.d
+build CMakeFiles/problem52.dir/pre/problem52.cpp.o: CXX_COMPILER__problem52_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem52.cpp || cmake_object_order_depends_target_problem52
+  DEP_FILE = CMakeFiles/problem52.dir/pre/problem52.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem52.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem52.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem52.dir/pre
 
 
 # =============================================================================
@@ -1644,7 +1644,7 @@ build CMakeFiles/problem52.dir/problem52.cpp.o: CXX_COMPILER__problem52_unscanne
 #############################################
 # Link the executable problem52
 
-build problem52: CXX_EXECUTABLE_LINKER__problem52_Debug CMakeFiles/problem52.dir/problem52.cpp.o
+build problem52: CXX_EXECUTABLE_LINKER__problem52_Debug CMakeFiles/problem52.dir/pre/problem52.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem52.dir
   POST_BUILD = :
@@ -1661,11 +1661,11 @@ build problem52: CXX_EXECUTABLE_LINKER__problem52_Debug CMakeFiles/problem52.dir
 
 build cmake_object_order_depends_target_problem53: phony || .
 
-build CMakeFiles/problem53.dir/problem53.cpp.o: CXX_COMPILER__problem53_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem53.cpp || cmake_object_order_depends_target_problem53
-  DEP_FILE = CMakeFiles/problem53.dir/problem53.cpp.o.d
+build CMakeFiles/problem53.dir/pre/problem53.cpp.o: CXX_COMPILER__problem53_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem53.cpp || cmake_object_order_depends_target_problem53
+  DEP_FILE = CMakeFiles/problem53.dir/pre/problem53.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem53.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem53.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem53.dir/pre
 
 
 # =============================================================================
@@ -1675,7 +1675,7 @@ build CMakeFiles/problem53.dir/problem53.cpp.o: CXX_COMPILER__problem53_unscanne
 #############################################
 # Link the executable problem53
 
-build problem53: CXX_EXECUTABLE_LINKER__problem53_Debug CMakeFiles/problem53.dir/problem53.cpp.o
+build problem53: CXX_EXECUTABLE_LINKER__problem53_Debug CMakeFiles/problem53.dir/pre/problem53.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem53.dir
   POST_BUILD = :
@@ -1692,11 +1692,11 @@ build problem53: CXX_EXECUTABLE_LINKER__problem53_Debug CMakeFiles/problem53.dir
 
 build cmake_object_order_depends_target_problem54: phony || .
 
-build CMakeFiles/problem54.dir/problem54.cpp.o: CXX_COMPILER__problem54_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem54.cpp || cmake_object_order_depends_target_problem54
-  DEP_FILE = CMakeFiles/problem54.dir/problem54.cpp.o.d
+build CMakeFiles/problem54.dir/pre/problem54.cpp.o: CXX_COMPILER__problem54_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem54.cpp || cmake_object_order_depends_target_problem54
+  DEP_FILE = CMakeFiles/problem54.dir/pre/problem54.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem54.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem54.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem54.dir/pre
 
 
 # =============================================================================
@@ -1706,7 +1706,7 @@ build CMakeFiles/problem54.dir/problem54.cpp.o: CXX_COMPILER__problem54_unscanne
 #############################################
 # Link the executable problem54
 
-build problem54: CXX_EXECUTABLE_LINKER__problem54_Debug CMakeFiles/problem54.dir/problem54.cpp.o
+build problem54: CXX_EXECUTABLE_LINKER__problem54_Debug CMakeFiles/problem54.dir/pre/problem54.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem54.dir
   POST_BUILD = :
@@ -1723,11 +1723,11 @@ build problem54: CXX_EXECUTABLE_LINKER__problem54_Debug CMakeFiles/problem54.dir
 
 build cmake_object_order_depends_target_problem55: phony || .
 
-build CMakeFiles/problem55.dir/problem55.cpp.o: CXX_COMPILER__problem55_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem55.cpp || cmake_object_order_depends_target_problem55
-  DEP_FILE = CMakeFiles/problem55.dir/problem55.cpp.o.d
+build CMakeFiles/problem55.dir/pre/problem55.cpp.o: CXX_COMPILER__problem55_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem55.cpp || cmake_object_order_depends_target_problem55
+  DEP_FILE = CMakeFiles/problem55.dir/pre/problem55.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem55.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem55.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem55.dir/pre
 
 
 # =============================================================================
@@ -1737,7 +1737,7 @@ build CMakeFiles/problem55.dir/problem55.cpp.o: CXX_COMPILER__problem55_unscanne
 #############################################
 # Link the executable problem55
 
-build problem55: CXX_EXECUTABLE_LINKER__problem55_Debug CMakeFiles/problem55.dir/problem55.cpp.o
+build problem55: CXX_EXECUTABLE_LINKER__problem55_Debug CMakeFiles/problem55.dir/pre/problem55.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem55.dir
   POST_BUILD = :
@@ -1754,11 +1754,11 @@ build problem55: CXX_EXECUTABLE_LINKER__problem55_Debug CMakeFiles/problem55.dir
 
 build cmake_object_order_depends_target_problem56: phony || .
 
-build CMakeFiles/problem56.dir/problem56.cpp.o: CXX_COMPILER__problem56_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem56.cpp || cmake_object_order_depends_target_problem56
-  DEP_FILE = CMakeFiles/problem56.dir/problem56.cpp.o.d
+build CMakeFiles/problem56.dir/pre/problem56.cpp.o: CXX_COMPILER__problem56_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem56.cpp || cmake_object_order_depends_target_problem56
+  DEP_FILE = CMakeFiles/problem56.dir/pre/problem56.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem56.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem56.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem56.dir/pre
 
 
 # =============================================================================
@@ -1768,7 +1768,7 @@ build CMakeFiles/problem56.dir/problem56.cpp.o: CXX_COMPILER__problem56_unscanne
 #############################################
 # Link the executable problem56
 
-build problem56: CXX_EXECUTABLE_LINKER__problem56_Debug CMakeFiles/problem56.dir/problem56.cpp.o
+build problem56: CXX_EXECUTABLE_LINKER__problem56_Debug CMakeFiles/problem56.dir/pre/problem56.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem56.dir
   POST_BUILD = :
@@ -1785,11 +1785,11 @@ build problem56: CXX_EXECUTABLE_LINKER__problem56_Debug CMakeFiles/problem56.dir
 
 build cmake_object_order_depends_target_problem57: phony || .
 
-build CMakeFiles/problem57.dir/problem57.cpp.o: CXX_COMPILER__problem57_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem57.cpp || cmake_object_order_depends_target_problem57
-  DEP_FILE = CMakeFiles/problem57.dir/problem57.cpp.o.d
+build CMakeFiles/problem57.dir/pre/problem57.cpp.o: CXX_COMPILER__problem57_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem57.cpp || cmake_object_order_depends_target_problem57
+  DEP_FILE = CMakeFiles/problem57.dir/pre/problem57.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem57.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem57.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem57.dir/pre
 
 
 # =============================================================================
@@ -1799,7 +1799,7 @@ build CMakeFiles/problem57.dir/problem57.cpp.o: CXX_COMPILER__problem57_unscanne
 #############################################
 # Link the executable problem57
 
-build problem57: CXX_EXECUTABLE_LINKER__problem57_Debug CMakeFiles/problem57.dir/problem57.cpp.o
+build problem57: CXX_EXECUTABLE_LINKER__problem57_Debug CMakeFiles/problem57.dir/pre/problem57.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem57.dir
   POST_BUILD = :
@@ -1816,11 +1816,11 @@ build problem57: CXX_EXECUTABLE_LINKER__problem57_Debug CMakeFiles/problem57.dir
 
 build cmake_object_order_depends_target_problem58: phony || .
 
-build CMakeFiles/problem58.dir/problem58.cpp.o: CXX_COMPILER__problem58_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem58.cpp || cmake_object_order_depends_target_problem58
-  DEP_FILE = CMakeFiles/problem58.dir/problem58.cpp.o.d
+build CMakeFiles/problem58.dir/pre/problem58.cpp.o: CXX_COMPILER__problem58_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem58.cpp || cmake_object_order_depends_target_problem58
+  DEP_FILE = CMakeFiles/problem58.dir/pre/problem58.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem58.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem58.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem58.dir/pre
 
 
 # =============================================================================
@@ -1830,7 +1830,7 @@ build CMakeFiles/problem58.dir/problem58.cpp.o: CXX_COMPILER__problem58_unscanne
 #############################################
 # Link the executable problem58
 
-build problem58: CXX_EXECUTABLE_LINKER__problem58_Debug CMakeFiles/problem58.dir/problem58.cpp.o
+build problem58: CXX_EXECUTABLE_LINKER__problem58_Debug CMakeFiles/problem58.dir/pre/problem58.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem58.dir
   POST_BUILD = :
@@ -1847,11 +1847,11 @@ build problem58: CXX_EXECUTABLE_LINKER__problem58_Debug CMakeFiles/problem58.dir
 
 build cmake_object_order_depends_target_problem59: phony || .
 
-build CMakeFiles/problem59.dir/problem59.cpp.o: CXX_COMPILER__problem59_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem59.cpp || cmake_object_order_depends_target_problem59
-  DEP_FILE = CMakeFiles/problem59.dir/problem59.cpp.o.d
+build CMakeFiles/problem59.dir/pre/problem59.cpp.o: CXX_COMPILER__problem59_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem59.cpp || cmake_object_order_depends_target_problem59
+  DEP_FILE = CMakeFiles/problem59.dir/pre/problem59.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem59.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem59.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem59.dir/pre
 
 
 # =============================================================================
@@ -1861,7 +1861,7 @@ build CMakeFiles/problem59.dir/problem59.cpp.o: CXX_COMPILER__problem59_unscanne
 #############################################
 # Link the executable problem59
 
-build problem59: CXX_EXECUTABLE_LINKER__problem59_Debug CMakeFiles/problem59.dir/problem59.cpp.o
+build problem59: CXX_EXECUTABLE_LINKER__problem59_Debug CMakeFiles/problem59.dir/pre/problem59.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem59.dir
   POST_BUILD = :
@@ -1878,11 +1878,11 @@ build problem59: CXX_EXECUTABLE_LINKER__problem59_Debug CMakeFiles/problem59.dir
 
 build cmake_object_order_depends_target_problem60: phony || .
 
-build CMakeFiles/problem60.dir/problem60.cpp.o: CXX_COMPILER__problem60_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem60.cpp || cmake_object_order_depends_target_problem60
-  DEP_FILE = CMakeFiles/problem60.dir/problem60.cpp.o.d
+build CMakeFiles/problem60.dir/pre/problem60.cpp.o: CXX_COMPILER__problem60_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem60.cpp || cmake_object_order_depends_target_problem60
+  DEP_FILE = CMakeFiles/problem60.dir/pre/problem60.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem60.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem60.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem60.dir/pre
 
 
 # =============================================================================
@@ -1892,7 +1892,7 @@ build CMakeFiles/problem60.dir/problem60.cpp.o: CXX_COMPILER__problem60_unscanne
 #############################################
 # Link the executable problem60
 
-build problem60: CXX_EXECUTABLE_LINKER__problem60_Debug CMakeFiles/problem60.dir/problem60.cpp.o
+build problem60: CXX_EXECUTABLE_LINKER__problem60_Debug CMakeFiles/problem60.dir/pre/problem60.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem60.dir
   POST_BUILD = :
@@ -1909,11 +1909,11 @@ build problem60: CXX_EXECUTABLE_LINKER__problem60_Debug CMakeFiles/problem60.dir
 
 build cmake_object_order_depends_target_problem61: phony || .
 
-build CMakeFiles/problem61.dir/problem61.cpp.o: CXX_COMPILER__problem61_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem61.cpp || cmake_object_order_depends_target_problem61
-  DEP_FILE = CMakeFiles/problem61.dir/problem61.cpp.o.d
+build CMakeFiles/problem61.dir/pre/problem61.cpp.o: CXX_COMPILER__problem61_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem61.cpp || cmake_object_order_depends_target_problem61
+  DEP_FILE = CMakeFiles/problem61.dir/pre/problem61.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem61.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem61.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem61.dir/pre
 
 
 # =============================================================================
@@ -1923,7 +1923,7 @@ build CMakeFiles/problem61.dir/problem61.cpp.o: CXX_COMPILER__problem61_unscanne
 #############################################
 # Link the executable problem61
 
-build problem61: CXX_EXECUTABLE_LINKER__problem61_Debug CMakeFiles/problem61.dir/problem61.cpp.o
+build problem61: CXX_EXECUTABLE_LINKER__problem61_Debug CMakeFiles/problem61.dir/pre/problem61.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem61.dir
   POST_BUILD = :
@@ -1940,11 +1940,11 @@ build problem61: CXX_EXECUTABLE_LINKER__problem61_Debug CMakeFiles/problem61.dir
 
 build cmake_object_order_depends_target_problem62: phony || .
 
-build CMakeFiles/problem62.dir/problem62.cpp.o: CXX_COMPILER__problem62_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem62.cpp || cmake_object_order_depends_target_problem62
-  DEP_FILE = CMakeFiles/problem62.dir/problem62.cpp.o.d
+build CMakeFiles/problem62.dir/pre/problem62.cpp.o: CXX_COMPILER__problem62_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem62.cpp || cmake_object_order_depends_target_problem62
+  DEP_FILE = CMakeFiles/problem62.dir/pre/problem62.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem62.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem62.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem62.dir/pre
 
 
 # =============================================================================
@@ -1954,7 +1954,7 @@ build CMakeFiles/problem62.dir/problem62.cpp.o: CXX_COMPILER__problem62_unscanne
 #############################################
 # Link the executable problem62
 
-build problem62: CXX_EXECUTABLE_LINKER__problem62_Debug CMakeFiles/problem62.dir/problem62.cpp.o
+build problem62: CXX_EXECUTABLE_LINKER__problem62_Debug CMakeFiles/problem62.dir/pre/problem62.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem62.dir
   POST_BUILD = :
@@ -1971,11 +1971,11 @@ build problem62: CXX_EXECUTABLE_LINKER__problem62_Debug CMakeFiles/problem62.dir
 
 build cmake_object_order_depends_target_problem63: phony || .
 
-build CMakeFiles/problem63.dir/problem63.cpp.o: CXX_COMPILER__problem63_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem63.cpp || cmake_object_order_depends_target_problem63
-  DEP_FILE = CMakeFiles/problem63.dir/problem63.cpp.o.d
+build CMakeFiles/problem63.dir/pre/problem63.cpp.o: CXX_COMPILER__problem63_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem63.cpp || cmake_object_order_depends_target_problem63
+  DEP_FILE = CMakeFiles/problem63.dir/pre/problem63.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem63.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem63.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem63.dir/pre
 
 
 # =============================================================================
@@ -1985,7 +1985,7 @@ build CMakeFiles/problem63.dir/problem63.cpp.o: CXX_COMPILER__problem63_unscanne
 #############################################
 # Link the executable problem63
 
-build problem63: CXX_EXECUTABLE_LINKER__problem63_Debug CMakeFiles/problem63.dir/problem63.cpp.o
+build problem63: CXX_EXECUTABLE_LINKER__problem63_Debug CMakeFiles/problem63.dir/pre/problem63.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem63.dir
   POST_BUILD = :
@@ -2002,11 +2002,11 @@ build problem63: CXX_EXECUTABLE_LINKER__problem63_Debug CMakeFiles/problem63.dir
 
 build cmake_object_order_depends_target_problem64: phony || .
 
-build CMakeFiles/problem64.dir/problem64.cpp.o: CXX_COMPILER__problem64_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem64.cpp || cmake_object_order_depends_target_problem64
-  DEP_FILE = CMakeFiles/problem64.dir/problem64.cpp.o.d
+build CMakeFiles/problem64.dir/pre/problem64.cpp.o: CXX_COMPILER__problem64_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem64.cpp || cmake_object_order_depends_target_problem64
+  DEP_FILE = CMakeFiles/problem64.dir/pre/problem64.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem64.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem64.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem64.dir/pre
 
 
 # =============================================================================
@@ -2016,7 +2016,7 @@ build CMakeFiles/problem64.dir/problem64.cpp.o: CXX_COMPILER__problem64_unscanne
 #############################################
 # Link the executable problem64
 
-build problem64: CXX_EXECUTABLE_LINKER__problem64_Debug CMakeFiles/problem64.dir/problem64.cpp.o
+build problem64: CXX_EXECUTABLE_LINKER__problem64_Debug CMakeFiles/problem64.dir/pre/problem64.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem64.dir
   POST_BUILD = :
@@ -2033,11 +2033,11 @@ build problem64: CXX_EXECUTABLE_LINKER__problem64_Debug CMakeFiles/problem64.dir
 
 build cmake_object_order_depends_target_problem65: phony || .
 
-build CMakeFiles/problem65.dir/problem65.cpp.o: CXX_COMPILER__problem65_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem65.cpp || cmake_object_order_depends_target_problem65
-  DEP_FILE = CMakeFiles/problem65.dir/problem65.cpp.o.d
+build CMakeFiles/problem65.dir/pre/problem65.cpp.o: CXX_COMPILER__problem65_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem65.cpp || cmake_object_order_depends_target_problem65
+  DEP_FILE = CMakeFiles/problem65.dir/pre/problem65.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem65.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem65.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem65.dir/pre
 
 
 # =============================================================================
@@ -2047,7 +2047,7 @@ build CMakeFiles/problem65.dir/problem65.cpp.o: CXX_COMPILER__problem65_unscanne
 #############################################
 # Link the executable problem65
 
-build problem65: CXX_EXECUTABLE_LINKER__problem65_Debug CMakeFiles/problem65.dir/problem65.cpp.o
+build problem65: CXX_EXECUTABLE_LINKER__problem65_Debug CMakeFiles/problem65.dir/pre/problem65.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem65.dir
   POST_BUILD = :
@@ -2064,11 +2064,11 @@ build problem65: CXX_EXECUTABLE_LINKER__problem65_Debug CMakeFiles/problem65.dir
 
 build cmake_object_order_depends_target_problem66: phony || .
 
-build CMakeFiles/problem66.dir/problem66.cpp.o: CXX_COMPILER__problem66_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem66.cpp || cmake_object_order_depends_target_problem66
-  DEP_FILE = CMakeFiles/problem66.dir/problem66.cpp.o.d
+build CMakeFiles/problem66.dir/pre/problem66.cpp.o: CXX_COMPILER__problem66_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem66.cpp || cmake_object_order_depends_target_problem66
+  DEP_FILE = CMakeFiles/problem66.dir/pre/problem66.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem66.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem66.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem66.dir/pre
 
 
 # =============================================================================
@@ -2078,7 +2078,7 @@ build CMakeFiles/problem66.dir/problem66.cpp.o: CXX_COMPILER__problem66_unscanne
 #############################################
 # Link the executable problem66
 
-build problem66: CXX_EXECUTABLE_LINKER__problem66_Debug CMakeFiles/problem66.dir/problem66.cpp.o
+build problem66: CXX_EXECUTABLE_LINKER__problem66_Debug CMakeFiles/problem66.dir/pre/problem66.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem66.dir
   POST_BUILD = :
@@ -2095,11 +2095,11 @@ build problem66: CXX_EXECUTABLE_LINKER__problem66_Debug CMakeFiles/problem66.dir
 
 build cmake_object_order_depends_target_problem67: phony || .
 
-build CMakeFiles/problem67.dir/problem67.cpp.o: CXX_COMPILER__problem67_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem67.cpp || cmake_object_order_depends_target_problem67
-  DEP_FILE = CMakeFiles/problem67.dir/problem67.cpp.o.d
+build CMakeFiles/problem67.dir/pre/problem67.cpp.o: CXX_COMPILER__problem67_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem67.cpp || cmake_object_order_depends_target_problem67
+  DEP_FILE = CMakeFiles/problem67.dir/pre/problem67.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem67.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem67.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem67.dir/pre
 
 
 # =============================================================================
@@ -2109,7 +2109,7 @@ build CMakeFiles/problem67.dir/problem67.cpp.o: CXX_COMPILER__problem67_unscanne
 #############################################
 # Link the executable problem67
 
-build problem67: CXX_EXECUTABLE_LINKER__problem67_Debug CMakeFiles/problem67.dir/problem67.cpp.o
+build problem67: CXX_EXECUTABLE_LINKER__problem67_Debug CMakeFiles/problem67.dir/pre/problem67.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem67.dir
   POST_BUILD = :
@@ -2126,11 +2126,11 @@ build problem67: CXX_EXECUTABLE_LINKER__problem67_Debug CMakeFiles/problem67.dir
 
 build cmake_object_order_depends_target_problem68: phony || .
 
-build CMakeFiles/problem68.dir/problem68.cpp.o: CXX_COMPILER__problem68_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem68.cpp || cmake_object_order_depends_target_problem68
-  DEP_FILE = CMakeFiles/problem68.dir/problem68.cpp.o.d
+build CMakeFiles/problem68.dir/pre/problem68.cpp.o: CXX_COMPILER__problem68_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem68.cpp || cmake_object_order_depends_target_problem68
+  DEP_FILE = CMakeFiles/problem68.dir/pre/problem68.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem68.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem68.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem68.dir/pre
 
 
 # =============================================================================
@@ -2140,7 +2140,7 @@ build CMakeFiles/problem68.dir/problem68.cpp.o: CXX_COMPILER__problem68_unscanne
 #############################################
 # Link the executable problem68
 
-build problem68: CXX_EXECUTABLE_LINKER__problem68_Debug CMakeFiles/problem68.dir/problem68.cpp.o
+build problem68: CXX_EXECUTABLE_LINKER__problem68_Debug CMakeFiles/problem68.dir/pre/problem68.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem68.dir
   POST_BUILD = :
@@ -2157,11 +2157,11 @@ build problem68: CXX_EXECUTABLE_LINKER__problem68_Debug CMakeFiles/problem68.dir
 
 build cmake_object_order_depends_target_problem69: phony || .
 
-build CMakeFiles/problem69.dir/problem69.cpp.o: CXX_COMPILER__problem69_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem69.cpp || cmake_object_order_depends_target_problem69
-  DEP_FILE = CMakeFiles/problem69.dir/problem69.cpp.o.d
+build CMakeFiles/problem69.dir/pre/problem69.cpp.o: CXX_COMPILER__problem69_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem69.cpp || cmake_object_order_depends_target_problem69
+  DEP_FILE = CMakeFiles/problem69.dir/pre/problem69.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem69.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem69.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem69.dir/pre
 
 
 # =============================================================================
@@ -2171,7 +2171,7 @@ build CMakeFiles/problem69.dir/problem69.cpp.o: CXX_COMPILER__problem69_unscanne
 #############################################
 # Link the executable problem69
 
-build problem69: CXX_EXECUTABLE_LINKER__problem69_Debug CMakeFiles/problem69.dir/problem69.cpp.o
+build problem69: CXX_EXECUTABLE_LINKER__problem69_Debug CMakeFiles/problem69.dir/pre/problem69.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem69.dir
   POST_BUILD = :
@@ -2188,11 +2188,11 @@ build problem69: CXX_EXECUTABLE_LINKER__problem69_Debug CMakeFiles/problem69.dir
 
 build cmake_object_order_depends_target_problem70: phony || .
 
-build CMakeFiles/problem70.dir/problem70.cpp.o: CXX_COMPILER__problem70_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/problem70.cpp || cmake_object_order_depends_target_problem70
-  DEP_FILE = CMakeFiles/problem70.dir/problem70.cpp.o.d
+build CMakeFiles/problem70.dir/pre/problem70.cpp.o: CXX_COMPILER__problem70_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/pre/problem70.cpp || cmake_object_order_depends_target_problem70
+  DEP_FILE = CMakeFiles/problem70.dir/pre/problem70.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/problem70.dir
-  OBJECT_FILE_DIR = CMakeFiles/problem70.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem70.dir/pre
 
 
 # =============================================================================
@@ -2202,7 +2202,7 @@ build CMakeFiles/problem70.dir/problem70.cpp.o: CXX_COMPILER__problem70_unscanne
 #############################################
 # Link the executable problem70
 
-build problem70: CXX_EXECUTABLE_LINKER__problem70_Debug CMakeFiles/problem70.dir/problem70.cpp.o
+build problem70: CXX_EXECUTABLE_LINKER__problem70_Debug CMakeFiles/problem70.dir/pre/problem70.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/problem70.dir
   POST_BUILD = :
