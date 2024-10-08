@@ -3,8 +3,7 @@ project(cote_study)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(problem1 pre/problem1.cpp
-)
+add_executable(problem1 pre/problem1.cpp)
 add_executable(problem2 pre/problem2.cpp)
 add_executable(problem3 pre/problem3.cpp)
 add_executable(problem4 pre/problem4.cpp)
@@ -74,3 +73,5 @@ add_executable(problem67 pre/problem67.cpp)
 add_executable(problem68 pre/problem68.cpp)
 add_executable(problem69 pre/problem69.cpp)
 add_executable(problem70 pre/problem70.cpp)
+add_executable(card 카드.cpp)
+add_executable(balloon 풍선터뜨리기.cpp)
