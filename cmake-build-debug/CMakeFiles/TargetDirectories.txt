@@ -74,5 +74,6 @@
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/magic.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/gift.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/vote.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/gas.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
