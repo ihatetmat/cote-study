@@ -2396,6 +2396,37 @@ build vote: CXX_EXECUTABLE_LINKER__vote_Debug CMakeFiles/vote.dir/국회의원�
   TARGET_FILE = vote
   TARGET_PDB = vote.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target gas
+
+
+#############################################
+# Order-only phony target for gas
+
+build cmake_object_order_depends_target_gas: phony || .
+
+build CMakeFiles/gas.dir/연료채우기.cpp.o: CXX_COMPILER__gas_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/연료채우기.cpp || cmake_object_order_depends_target_gas
+  DEP_FILE = CMakeFiles/gas.dir/연료채우기.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/gas.dir
+  OBJECT_FILE_DIR = CMakeFiles/gas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gas
+
+
+#############################################
+# Link the executable gas
+
+build gas: CXX_EXECUTABLE_LINKER__gas_Debug CMakeFiles/gas.dir/연료채우기.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/gas.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = gas
+  TARGET_PDB = gas.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2430,7 +2461,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug
 
-build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote
+build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote gas
 
 # =============================================================================
 # Built-in targets
