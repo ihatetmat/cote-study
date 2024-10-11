@@ -2272,6 +2272,130 @@ build balloon: CXX_EXECUTABLE_LINKER__balloon_Debug CMakeFiles/balloon.dir/풍�
   TARGET_FILE = balloon
   TARGET_PDB = balloon.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target printer
+
+
+#############################################
+# Order-only phony target for printer
+
+build cmake_object_order_depends_target_printer: phony || .
+
+build CMakeFiles/printer.dir/프린터큐.cpp.o: CXX_COMPILER__printer_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/프린터큐.cpp || cmake_object_order_depends_target_printer
+  DEP_FILE = CMakeFiles/printer.dir/프린터큐.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/printer.dir
+  OBJECT_FILE_DIR = CMakeFiles/printer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target printer
+
+
+#############################################
+# Link the executable printer
+
+build printer: CXX_EXECUTABLE_LINKER__printer_Debug CMakeFiles/printer.dir/프린터큐.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/printer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = printer
+  TARGET_PDB = printer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target magic
+
+
+#############################################
+# Order-only phony target for magic
+
+build cmake_object_order_depends_target_magic: phony || .
+
+build CMakeFiles/magic.dir/센티와마법의뿅망치.cpp.o: CXX_COMPILER__magic_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/센티와마법의뿅망치.cpp || cmake_object_order_depends_target_magic
+  DEP_FILE = CMakeFiles/magic.dir/센티와마법의뿅망치.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/magic.dir
+  OBJECT_FILE_DIR = CMakeFiles/magic.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target magic
+
+
+#############################################
+# Link the executable magic
+
+build magic: CXX_EXECUTABLE_LINKER__magic_Debug CMakeFiles/magic.dir/센티와마법의뿅망치.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/magic.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = magic
+  TARGET_PDB = magic.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gift
+
+
+#############################################
+# Order-only phony target for gift
+
+build cmake_object_order_depends_target_gift: phony || .
+
+build CMakeFiles/gift.dir/크리스마스선물.cpp.o: CXX_COMPILER__gift_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/크리스마스선물.cpp || cmake_object_order_depends_target_gift
+  DEP_FILE = CMakeFiles/gift.dir/크리스마스선물.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/gift.dir
+  OBJECT_FILE_DIR = CMakeFiles/gift.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gift
+
+
+#############################################
+# Link the executable gift
+
+build gift: CXX_EXECUTABLE_LINKER__gift_Debug CMakeFiles/gift.dir/크리스마스선물.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/gift.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = gift
+  TARGET_PDB = gift.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vote
+
+
+#############################################
+# Order-only phony target for vote
+
+build cmake_object_order_depends_target_vote: phony || .
+
+build CMakeFiles/vote.dir/국회의원선거.cpp.o: CXX_COMPILER__vote_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/국회의원선거.cpp || cmake_object_order_depends_target_vote
+  DEP_FILE = CMakeFiles/vote.dir/국회의원선거.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/vote.dir
+  OBJECT_FILE_DIR = CMakeFiles/vote.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vote
+
+
+#############################################
+# Link the executable vote
+
+build vote: CXX_EXECUTABLE_LINKER__vote_Debug CMakeFiles/vote.dir/국회의원선거.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/vote.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = vote
+  TARGET_PDB = vote.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2306,7 +2430,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug
 
-build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon
+build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote
 
 # =============================================================================
 # Built-in targets
