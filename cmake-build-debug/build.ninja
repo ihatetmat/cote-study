@@ -2427,6 +2427,68 @@ build gas: CXX_EXECUTABLE_LINKER__gas_Debug CMakeFiles/gas.dir/연료채우기.c
   TARGET_FILE = gas
   TARGET_PDB = gas.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target virus
+
+
+#############################################
+# Order-only phony target for virus
+
+build cmake_object_order_depends_target_virus: phony || .
+
+build CMakeFiles/virus.dir/바이러스.cpp.o: CXX_COMPILER__virus_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/바이러스.cpp || cmake_object_order_depends_target_virus
+  DEP_FILE = CMakeFiles/virus.dir/바이러스.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/virus.dir
+  OBJECT_FILE_DIR = CMakeFiles/virus.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target virus
+
+
+#############################################
+# Link the executable virus
+
+build virus: CXX_EXECUTABLE_LINKER__virus_Debug CMakeFiles/virus.dir/바이러스.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/virus.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = virus
+  TARGET_PDB = virus.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target organic
+
+
+#############################################
+# Order-only phony target for organic
+
+build cmake_object_order_depends_target_organic: phony || .
+
+build CMakeFiles/organic.dir/유기농배추.cpp.o: CXX_COMPILER__organic_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/유기농배추.cpp || cmake_object_order_depends_target_organic
+  DEP_FILE = CMakeFiles/organic.dir/유기농배추.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/organic.dir
+  OBJECT_FILE_DIR = CMakeFiles/organic.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target organic
+
+
+#############################################
+# Link the executable organic
+
+build organic: CXX_EXECUTABLE_LINKER__organic_Debug CMakeFiles/organic.dir/유기농배추.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/organic.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = organic
+  TARGET_PDB = organic.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2461,7 +2523,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug
 
-build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote gas
+build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote gas virus organic
 
 # =============================================================================
 # Built-in targets
