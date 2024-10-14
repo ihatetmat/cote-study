@@ -2551,6 +2551,68 @@ build number: CXX_EXECUTABLE_LINKER__number_Debug CMakeFiles/number.dir/단지�
   TARGET_FILE = number
   TARGET_PDB = number.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target family
+
+
+#############################################
+# Order-only phony target for family
+
+build cmake_object_order_depends_target_family: phony || .
+
+build CMakeFiles/family.dir/촌수계산.cpp.o: CXX_COMPILER__family_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/촌수계산.cpp || cmake_object_order_depends_target_family
+  DEP_FILE = CMakeFiles/family.dir/촌수계산.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/family.dir
+  OBJECT_FILE_DIR = CMakeFiles/family.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target family
+
+
+#############################################
+# Link the executable family
+
+build family: CXX_EXECUTABLE_LINKER__family_Debug CMakeFiles/family.dir/촌수계산.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/family.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = family
+  TARGET_PDB = family.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target safety
+
+
+#############################################
+# Order-only phony target for safety
+
+build cmake_object_order_depends_target_safety: phony || .
+
+build CMakeFiles/safety.dir/안전영역.cpp.o: CXX_COMPILER__safety_unscanned_Debug /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/안전영역.cpp || cmake_object_order_depends_target_safety
+  DEP_FILE = CMakeFiles/safety.dir/안전영역.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/safety.dir
+  OBJECT_FILE_DIR = CMakeFiles/safety.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target safety
+
+
+#############################################
+# Link the executable safety
+
+build safety: CXX_EXECUTABLE_LINKER__safety_Debug CMakeFiles/safety.dir/안전영역.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/safety.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = safety
+  TARGET_PDB = safety.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2585,7 +2647,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug
 
-build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote gas virus organic redgreen number
+build all: phony problem1 problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9 problem10 problem11 problem12 problem13 problem14 problem15 problem16 problem17 problem18 problem19 problem20 problem21 problem22 problem23 problem24 problem25 problem26 problem27 problem28 problem29 problem30 problem31 problem32 problem33 problem34 problem35 problem36 problem37 problem38 problem39 problem40 problem41 problem42 problem43 problem44 problem45 problem46 problem47 problem48 problem49 problem50 problem51 problem52 problem53 problem54 problem55 problem56 problem57 problem58 problem59 problem60 problem61 problem62 problem63 problem64 problem65 problem66 problem67 problem68 problem69 problem70 card balloon printer magic gift vote gas virus organic redgreen number family safety
 
 # =============================================================================
 # Built-in targets

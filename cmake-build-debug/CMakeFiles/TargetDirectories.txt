@@ -77,5 +77,9 @@
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/gas.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/virus.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/organic.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/redgreen.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/number.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/family.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/safety.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
