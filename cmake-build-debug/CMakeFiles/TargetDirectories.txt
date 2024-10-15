@@ -81,5 +81,7 @@
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/number.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/family.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/safety.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/height.dir
+/Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/area.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ihatetmat/CLionProjects/cote-study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
